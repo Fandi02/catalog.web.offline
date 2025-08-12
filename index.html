@@ -53,7 +53,7 @@
             <section class="category-section">
                 <h2>Berdasarkan Kategori:</h2>
                 <div class="category-filters">
-                    <button class="filter-btn active" data-category="all">Semua</button>
+                    <button class="filter-btn active" data-category="">Semua</button>
                     <button class="filter-btn" data-category="Fashion">Fashion</button>
                     <button class="filter-btn" data-category="Home Dekor">Home Decor</button>
                     <button class="filter-btn" data-category="Kriya">Produk Kriya</button>
@@ -126,6 +126,12 @@
                 return urlParams.get('mall') || this.getMallFromPath();
             }
 
+            // Fungsi untuk mendapatkan kategori yang aktif
+            getActiveCategory() {
+                const activeBtn = document.querySelector('.filter-btn.active');
+                return activeBtn ? activeBtn.getAttribute('data-category') : null;
+            }
+
             // Load mall information from mall.json
             async loadMallInfo() {
                 try {
@@ -165,7 +171,7 @@
                 this.loadParticipants(true); // Initial load
             }
 
-            setupCategoryFilters() {
+            setupCategoryFilters() {                
                 const filterButtons = document.querySelectorAll('.category-filters .filter-btn');
                 filterButtons.forEach(button => {
                     button.addEventListener('click', (e) => {
@@ -269,21 +275,32 @@
                 this.showLoading();
 
                 try {
-                    const data = window[this.currentMall];                    
 
-                    if (data.error) {
-                        console.error('Error loading participants:', data.error);
+                    const data = window[this.currentMall];
+                    var dataFiltered;
+                    
+                    if (this.getActiveCategory() != "") {
+                        console.log(this.getActiveCategory());
+                        
+                        dataFiltered = data.filter(item => item.categoryName == this.getActiveCategory())
+                    }
+                    else {
+                        dataFiltered = data;
+                    }
+
+                    if (dataFiltered.error) {
+                        console.error('Error loading participants:', dataFiltered.error);
                         return;
                     }
 
                     // Render the participants
-                    this.renderParticipants(data, isInitial);
+                    this.renderParticipants(dataFiltered, isInitial);
 
                     // Update pagination state - IMPORTANT: Only increment page AFTER successful load
-                    this.hasMore = data.hasMore;
+                    this.hasMore = dataFiltered.hasMore;
 
-                    // Show end message if no more data
-                    if (!this.hasMore && !isInitial && data.participants.length > 0) {
+                    // Show end message if no more dataFiltered
+                    if (!this.hasMore && !isInitial && dataFiltered.length > 0) {
                         this.endMessage.style.display = 'block';
                     }
 

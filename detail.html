@@ -1,9 +1,9 @@
-
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>@Model.Participant.BusinessName - Pasar Kreatif Bandung 2025</title>
+    <title>Pasar Kreatif Bandung 2025</title>
     <link rel="stylesheet" href="css/participant.css" />
     <link rel="stylesheet" href="css/output.css" />
     <link rel="stylesheet" href="css/fonts/font-awesome.css" />
@@ -11,57 +11,53 @@
 
 <body>
     <header class="header-component">
-      <div class="sticky top-0 z-50 bg-[#1E1E1E]">
-         <div id="top-bar" class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-24 py-3 border-b border-gray-700 overflow-hidden transition-all duration-500 ease-in-out">
-               <a href="@Model.GetReturnUrl()">
-                  <div class="flex items-center space-x-2 mb-3 sm:mb-0">
-                     <img src="media/logos/Pasar Kreatif Bandung - Logo.png" alt="Pasar Kreatif Bandung 2025" class="h-8 sm:h-12 md:h-12 filter brightness-[1.2] transition-all duration-300 ease-in-out" />                
-                  </div>
-               </a>
-               <div class="text-[#FFD166] text-center sm:text-right text-md sm:text-base font-large whitespace-nowrap mb-3 sm:mb-0 flex-1 px-0 sm:px-6">
-                  Agustus - Oktober 2025, di 8 Mall Kota Bandung
-               </div>
-               <a href="index.html" id="backHomeButton" class="bg-[#00A9B7] text-white rounded px-4 py-2 text-sm sm:text-base font-normal hover:bg-[#008a95] transition w-full sm:w-auto">
-                   Beranda
-               </a>
-         </div>
-      </div>
-   </header>
+        <div class="sticky top-0 z-50 bg-[#1E1E1E]">
+            <div id="top-bar"
+                class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-24 py-3 border-b border-gray-700 overflow-hidden transition-all duration-500 ease-in-out">
+                <a href="">
+                    <div class="flex items-center space-x-2 mb-3 sm:mb-0">
+                        <img src="media/logos/Pasar Kreatif Bandung - Logo.png" alt="Pasar Kreatif Bandung 2025"
+                            class="h-8 sm:h-12 md:h-12 filter brightness-[1.2] transition-all duration-300 ease-in-out" />
+                    </div>
+                </a>
+                <div
+                    class="text-[#FFD166] text-center sm:text-right text-md sm:text-base font-large whitespace-nowrap mb-3 sm:mb-0 flex-1 px-0 sm:px-6">
+                    Agustus - Oktober 2025, di 8 Mall Kota Bandung
+                </div>
+                <a href="index.html" id="backHomeButton"
+                    class="bg-[#00A9B7] text-white rounded px-4 py-2 text-sm sm:text-base font-normal hover:bg-[#008a95] transition w-full sm:w-auto">
+                    Beranda
+                </a>
+            </div>
+        </div>
+    </header>
 
     <!-- Fixed Navigation Buttons -->
     @if (Model.PreviousParticipantId.HasValue)
     {
-        <a href="@Model.GetNavigationUrl(Model.PreviousParticipantId)"
-        id="prevParticipant"
-        class="fixed left-4 top-1/2 transform -translate-y-1/2 z-30 
+    <a href="@Model.GetNavigationUrl(Model.PreviousParticipantId)" id="prevParticipant" class="fixed left-4 top-1/2 transform -translate-y-1/2 z-30 
                 bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full 
                 w-24 h-24 flex items-center justify-center shadow-lg 
-                transition-all duration-300"
-        title="Partisipan Sebelumnya">
-            <i class="fas fa-chevron-left text-3xl"></i>
-        </a>
+                transition-all duration-300" title="Partisipan Sebelumnya">
+        <i class="fas fa-chevron-left text-3xl"></i>
+    </a>
     }
 
     @if (Model.NextParticipantId.HasValue)
     {
-        <a href="@Model.GetNavigationUrl(Model.NextParticipantId)"
-        id="nextParticipant"
-        class="fixed right-4 top-1/2 transform -translate-y-1/2 z-30 
+    <a href="@Model.GetNavigationUrl(Model.NextParticipantId)" id="nextParticipant" class="fixed right-4 top-1/2 transform -translate-y-1/2 z-30 
                 bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full 
                 w-24 h-24 flex items-center justify-center shadow-lg 
-                transition-all duration-300"
-        title="Partisipan Selanjutnya">
-            <i class="fas fa-chevron-right text-3xl"></i>
-        </a>
+                transition-all duration-300" title="Partisipan Selanjutnya">
+        <i class="fas fa-chevron-right text-3xl"></i>
+    </a>
     }
 
     <!-- Scroll to Top Button with Label -->
-    <div id="scrollToTopContainer" 
-        class="fixed bottom-[12.5rem] left-[85%] -translate-x-1/2 z-30 
+    <div id="scrollToTopContainer" class="fixed bottom-[12.5rem] left-[85%] -translate-x-1/2 z-30 
                 flex flex-col items-center opacity-0 invisible 
                 transition-all duration-300">
-        <button id="scrollToTop" 
-                class="bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full 
+        <button id="scrollToTop" class="bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full 
                     w-24 h-24 flex items-center justify-center shadow-lg 
                     transition-all duration-300 mb-2">
             <i class="fas fa-chevron-up text-3xl"></i>
@@ -75,14 +71,16 @@
     <div class="w-full h-16 sm:h-24 md:h-80 lg:h-84 object-cover">
         @if (!string.IsNullOrEmpty(Model.Participant.PhotoHeader))
         {
-            <img src="@Model.Participant.PhotoHeader" alt="@Model.Participant.BusinessName" class="w-full h-28 sm:h-64 md:h-80 lg:h-84 object-cover" />
+        <img src="@Model.Participant.PhotoHeader" alt="@Model.Participant.BusinessName"
+            class="w-full h-28 sm:h-64 md:h-80 lg:h-84 object-cover" />
         }
         else
         {
-            <img src="media/images/Header_default.png" alt="Banner" class="w-full h-28 sm:h-64 md:h-80 lg:h-84 object-cover" />
+        <img src="media/images/Header_default.png" alt="Banner"
+            class="w-full h-28 sm:h-64 md:h-80 lg:h-84 object-cover" />
         }
     </div>
-    
+
     <section class="bg-white py-8 md:py-16 px-10">
         <div class="max-w-7xl mx-auto px-[20px] sm:px-6 lg:px-12">
             <div class="flex flex-col lg:flex-row gap-6 lg:gap-5">
@@ -91,8 +89,9 @@
                     <div class="flex flex-row w-full gap-4 sm:gap-6 items-end sm:items-start mb-6 md:mb-8">
                         <div class="flex-shrink-0 border border-gray-200 items-start rounded-lg p-1 bg-white sm:mx-0">
                             <img alt="@Model.Participant.BusinessName"
-                                 class="w-36 h-36 sm:w-64 sm:h-64 object-cover rounded-md"
-                                 src="@(!string.IsNullOrEmpty(Model.Participant.Logo) ? Model.Participant.Logo : "media/logos/Pasar Kreatif Bandung - About.png")" />
+                                class="w-36 h-36 sm:w-64 sm:h-64 object-cover rounded-md"
+                                src="@(!string.IsNullOrEmpty(Model.Participant.Logo) ? Model.Participant.Logo : "
+                                media/logos/Pasar Kreatif Bandung - About.png")" />
                         </div>
                         <div class="flex-1 text-left">
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#073B4C] mb-2">
@@ -103,26 +102,28 @@
                                 <span class="text-md text-2xl">
                                     @if (Model.Participant.MallNames.Any())
                                     {
-                                        @string.Join(", ", Model.Participant.MallNames)
+                                    @string.Join(", ", Model.Participant.MallNames)
                                     }
                                     else
                                     {
-                                        <span class="text-gray-400">Belum terjadwal</span>
+                                    <span class="text-gray-400">Belum terjadwal</span>
                                     }
                                 </span>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="mb-4">
                         <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">Deskripsi Partisipan</h2>
                         <div class="text-gray-700 leading-relaxed text-md sm:text-xl">
-                            @Html.Raw(Model.Participant.Description?.Replace("\n\n", "<br><br>") ?? "Tidak ada deskripsi")
+                            @Html.Raw(Model.Participant.Description?.Replace("\n\n", "<br><br>") ?? "Tidak ada
+                            deskripsi")
                         </div>
                     </div>
                     <div>
                         <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">Kategori</h2>
-                        <span class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-md px-4 py-3 rounded-md border">
+                        <span
+                            class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-md px-4 py-3 rounded-md border">
                             @Model.Participant.MasterDataCategoryName
                         </span>
                     </div>
@@ -130,20 +131,27 @@
                     <div class="mt-8 mb-8">
                         <div class="border-b border-gray-200">
                             <nav class="-mb-px flex space-x-8">
-                                <button class="tab-button active border-b-2 border-[#00A9B7] py-2 px-1 text-base font-medium text-[#00A9B7]" data-tab="products">
+                                <button
+                                    class="tab-button active border-b-2 border-[#00A9B7] py-2 px-1 text-base font-medium text-[#00A9B7]"
+                                    data-tab="products">
                                     <i class="fas fa-box mr-2"></i>Produk (@Model.Participant.Products.Count)
                                 </button>
                                 @if (Model.Participant.DocumentFiles != null && Model.Participant.DocumentFiles.Any())
                                 {
-                                    <button class="tab-button border-b-2 border-transparent py-2 px-1 text-base font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="documents">
-                                        <i class="fas fa-file-alt mr-2"></i>Dokumen (@Model.Participant.DocumentFiles.Count())
-                                    </button>
+                                <button
+                                    class="tab-button border-b-2 border-transparent py-2 px-1 text-base font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                                    data-tab="documents">
+                                    <i class="fas fa-file-alt mr-2"></i>Dokumen
+                                    (@Model.Participant.DocumentFiles.Count())
+                                </button>
                                 }
                                 @if (!string.IsNullOrWhiteSpace(Model.Participant.LinkVideoBusiness))
                                 {
-                                    <button class="tab-button border-b-2 border-transparent py-2 px-1 text-base font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300" data-tab="videos">
-                                        <i class="fas fa-video mr-2"></i>Video Profil
-                                    </button>
+                                <button
+                                    class="tab-button border-b-2 border-transparent py-2 px-1 text-base font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300"
+                                    data-tab="videos">
+                                    <i class="fas fa-video mr-2"></i>Video Profil
+                                </button>
                                 }
                             </nav>
                         </div>
@@ -154,461 +162,475 @@
                             <div id="products-tab" class="tab-content active">
                                 @foreach (var product in Model.Participant.Products)
                                 {
-                                    <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm mb-6">
-                                        <h3 class="text-xl sm:text-2xl font-bold text-[#073B4C] mb-6 p-6 pb-0">@product.ProductName</h3>
-                                        
-                                        <!-- Full width product image like document section -->
-                                        <div class="bg-gray-100">
-                                            <img alt="@product.ProductName" 
-                                                class="w-full h-[600px] object-contain"
-                                                src="@(!string.IsNullOrEmpty(product.PhotoProduct) ? product.PhotoProduct : "media/images/default-product.png")" />
-                                        </div>
-                                        
-                                        <!-- Full width content section -->
-                                        <div class="p-6 space-y-6">
-                                            <div>
-                                                <h4 class="font-semibold text-gray-800 mb-3 text-xl">Deskripsi Produk</h4>
-                                                <p class="text-gray-700 leading-relaxed text-lg">
-                                                    @Html.Raw(product.Description?.Replace("\n\n", "<br><br>") ?? "Tidak ada deskripsi produk")
-                                                </p>
-                                            </div>
-                                            @if (!string.IsNullOrEmpty(product.MasterDataRawMaterial))
-                                            {
-                                                <div>
-                                                    <h4 class="font-semibold text-gray-800 mb-4 text-xl">Bahan Baku</h4>
-                                                    <div class="flex flex-wrap gap-2">
-                                                        <span class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-lg px-4 py-3 rounded-md border">
-                                                            @product.MasterDataRawMaterial
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            }
-                                        </div>
+                                <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm mb-6">
+                                    <h3 class="text-xl sm:text-2xl font-bold text-[#073B4C] mb-6 p-6 pb-0">
+                                        @product.ProductName</h3>
+
+                                    <!-- Full width product image like document section -->
+                                    <div class="bg-gray-100">
+                                        <img alt="@product.ProductName" class="w-full h-[600px] object-contain"
+                                            src="@(!string.IsNullOrEmpty(product.PhotoProduct) ? product.PhotoProduct : "
+                                            media/images/default-product.png")" />
                                     </div>
+
+                                    <!-- Full width content section -->
+                                    <div class="p-6 space-y-6">
+                                        <div>
+                                            <h4 class="font-semibold text-gray-800 mb-3 text-xl">Deskripsi Produk</h4>
+                                            <p class="text-gray-700 leading-relaxed text-lg">
+                                                @Html.Raw(product.Description?.Replace("\n\n", "<br><br>") ?? "Tidak ada
+                                                deskripsi produk")
+                                            </p>
+                                        </div>
+                                        @if (!string.IsNullOrEmpty(product.MasterDataRawMaterial))
+                                        {
+                                        <div>
+                                            <h4 class="font-semibold text-gray-800 mb-4 text-xl">Bahan Baku</h4>
+                                            <div class="flex flex-wrap gap-2">
+                                                <span
+                                                    class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-lg px-4 py-3 rounded-md border">
+                                                    @product.MasterDataRawMaterial
+                                                </span>
+                                            </div>
+                                        </div>
+                                        }
+                                    </div>
+                                </div>
                                 }
                             </div>
 
                             <!-- Documents Tab -->
                             @if (Model.Participant.DocumentFiles != null && Model.Participant.DocumentFiles.Any())
                             {
-                                <div id="documents-tab" class="tab-content hidden">
-                                    <div class="grid grid-cols-1 gap-6">
-                                        @foreach (var document in Model.Participant.DocumentFiles)
-                                        {
-                                            <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                                                <!-- A4 sized document display (842px height approximates A4 ratio) -->
-                                                <div class="h-[842px] bg-gray-100">
-                                                    @if (document.EndsWith(".pdf"))
-                                                    {
-                                                        <iframe src="@document#toolbar=0&navpanes=0&scrollbar=0" 
-                                                            class="w-full h-full" 
-                                                            title="Document Preview"></iframe>
-                                                    }
-                                                    else if (document.EndsWith(".jpg") || document.EndsWith(".jpeg") || document.EndsWith(".png") || document.EndsWith(".gif"))
-                                                    {
-                                                        <img src="@document" 
-                                                            alt="Document Preview" 
-                                                            class="w-full h-full object-contain" />
-                                                    }
-                                                    else
-                                                    {
-                                                        <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                                            <div class="text-center">
-                                                                <i class="fas fa-file text-4xl text-gray-400 mb-2"></i>
-                                                                <p class="text-sm text-gray-500">Preview not available</p>
-                                                            </div>
-                                                        </div>
-                                                    }
-                                                </div>
-                                                <div>
-                                                    <div class="flex justify-between items-center">
-                                                        @* <h4 class="font-semibold text-gray-800">Dokumen</h4>
-                                                        <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">
-                                                            @System.IO.Path.GetExtension(document).ToUpper().TrimStart('.')
-                                                        </span> *@
-                                                    </div>
+                            <div id="documents-tab" class="tab-content hidden">
+                                <div class="grid grid-cols-1 gap-6">
+                                    @foreach (var document in Model.Participant.DocumentFiles)
+                                    {
+                                    <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+                                        <!-- A4 sized document display (842px height approximates A4 ratio) -->
+                                        <div class="h-[842px] bg-gray-100">
+                                            @if (document.EndsWith(".pdf"))
+                                            {
+                                            <iframe src="@document#toolbar=0&navpanes=0&scrollbar=0"
+                                                class="w-full h-full" title="Document Preview"></iframe>
+                                            }
+                                            else if (document.EndsWith(".jpg") || document.EndsWith(".jpeg") ||
+                                            document.EndsWith(".png") || document.EndsWith(".gif"))
+                                            {
+                                            <img src="@document" alt="Document Preview"
+                                                class="w-full h-full object-contain" />
+                                            }
+                                            else
+                                            {
+                                            <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                                                <div class="text-center">
+                                                    <i class="fas fa-file text-4xl text-gray-400 mb-2"></i>
+                                                    <p class="text-sm text-gray-500">Preview not available</p>
                                                 </div>
                                             </div>
-                                        }
+                                            }
+                                        </div>
+                                        <div>
+                                            <div class="flex justify-between items-center">
+                                                @* <h4 class="font-semibold text-gray-800">Dokumen</h4>
+                                                <span class="text-xs bg-gray-200 text-gray-700 px-2 py-1 rounded">
+                                                    @System.IO.Path.GetExtension(document).ToUpper().TrimStart('.')
+                                                </span> *@
+                                            </div>
+                                        </div>
                                     </div>
+                                    }
                                 </div>
+                            </div>
                             }
 
                             <!-- Videos Tab -->
                             @if (!string.IsNullOrWhiteSpace(Model.Participant.LinkVideoBusiness))
                             {
-                                <div id="videos-tab" class="tab-content hidden">
-                                    <div class="grid grid-cols-1 gap-6">
-                                        <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-                                            <div class="aspect-video">
-                                                @{
-                                                    var videoUrl = Model.Participant.LinkVideoBusiness;
-                                                    
-                                                    if (videoUrl.Contains("youtube.com") || videoUrl.Contains("youtu.be"))
-                                                    {
-                                                        string? videoId = null;
-                                                        
-                                                        // Handle regular YouTube watch URLs
-                                                        if (videoUrl.Contains("youtube.com/watch?v="))
-                                                        {
-                                                            var vParam = videoUrl.Split(new[] { "v=" }, StringSplitOptions.None);
-                                                            if (vParam.Length > 1)
-                                                            {
-                                                                videoId = vParam[1].Split('&')[0];
-                                                            }
-                                                        }
-                                                        // Handle YouTube Shorts URLs
-                                                        else if (videoUrl.Contains("youtube.com/shorts/"))
-                                                        {
-                                                            var parts = videoUrl.Split('/');
-                                                            var shortsIndex = Array.IndexOf(parts, "shorts");
-                                                            if (shortsIndex >= 0 && shortsIndex < parts.Length - 1)
-                                                            {
-                                                                videoId = parts[shortsIndex + 1].Split('?')[0];
-                                                            }
-                                                        }
-                                                        // Handle youtu.be short URLs
-                                                        else if (videoUrl.Contains("youtu.be/"))
-                                                        {
-                                                            var parts = videoUrl.Split('/');
-                                                            if (parts.Length > 0)
-                                                            {
-                                                                videoId = parts.Last().Split('?')[0];
-                                                            }
-                                                        }
-                                                        // Handle already embedded URLs
-                                                        else if (videoUrl.Contains("youtube.com/embed/"))
-                                                        {
-                                                            var parts = videoUrl.Split('/');
-                                                            if (parts.Length > 0)
-                                                            {
-                                                                videoId = parts.Last().Split('?')[0];
-                                                            }
-                                                        }
-                                                        
-                                                        if (!string.IsNullOrEmpty(videoId))
-                                                        {
-                                                            <iframe 
-                                                                class="w-full h-full" 
-                                                                src="https://www.youtube.com/embed/@videoId" 
-                                                                title="Video Profil" 
-                                                                frameborder="0" 
-                                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                                                allowfullscreen>
-                                                            </iframe>
-                                                        }
-                                                        else
-                                                        {
-                                                            <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                                                <div class="text-center">
-                                                                    <i class="fas fa-exclamation-triangle text-4xl text-amber-400 mb-2"></i>
-                                                                    <p class="text-sm text-gray-600 mb-3">Video ID tidak dapat diextrak</p>
-                                                                    <span href="@videoUrl" target="_blank" 
-                                                                    class="text-[#00A9B7] hover:underline font-medium">
-                                                                        <i class="fas fa-external-link-alt mr-2"></i>Lihat Video di YouTube
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        }
-                                                    }
-                                                    // Handle Google Drive links
-                                                    else if (videoUrl.Contains("drive.google.com"))
-                                                    {
-                                                        string? fileId = null;
-                                                        
-                                                        // Handle sharing URLs like: https://drive.google.com/file/d/FILE_ID/view?usp=sharing
-                                                        if (videoUrl.Contains("/file/d/"))
-                                                        {
-                                                            var match = System.Text.RegularExpressions.Regex.Match(videoUrl, @"/file/d/([a-zA-Z0-9_-]+)");
-                                                            if (match.Success)
-                                                            {
-                                                                fileId = match.Groups[1].Value;
-                                                            }
-                                                        }
-                                                        // Handle open URLs like: https://drive.google.com/open?id=FILE_ID
-                                                        else if (videoUrl.Contains("open?id="))
-                                                        {
-                                                            var idParam = videoUrl.Split(new[] { "id=" }, StringSplitOptions.None);
-                                                            if (idParam.Length > 1)
-                                                            {
-                                                                fileId = idParam[1].Split('&')[0];
-                                                            }
-                                                        }
-                                                        
-                                                        if (!string.IsNullOrEmpty(fileId))
-                                                        {
-                                                            // Google Drive embed URL format
-                                                            var embedUrl = $"https://drive.google.com/file/d/{fileId}/preview";
-                                                            
-                                                            <iframe 
-                                                                class="w-full h-full" 
-                                                                src="@embedUrl" 
-                                                                title="Video Profil dari Google Drive" 
-                                                                frameborder="0" 
-                                                                allow="autoplay">
-                                                            </iframe>
-                                                        }
-                                                        else
-                                                        {
-                                                            <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                                                <div class="text-center">
-                                                                    <i class="fas fa-exclamation-triangle text-4xl text-amber-400 mb-2"></i>
-                                                                    <p class="text-sm text-gray-600 mb-3">File ID Google Drive tidak dapat diextrak</p>
-                                                                    <span href="@videoUrl" target="_blank" 
-                                                                    class="text-[#00A9B7] hover:underline font-medium">
-                                                                        <i class="fas fa-external-link-alt mr-2"></i>Lihat Video di Google Drive
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        }
-                                                    }
-                                                    // Handle OneDrive links
-                                                    else if (videoUrl.Contains("onedrive.live.com") || videoUrl.Contains("1drv.ms"))
-                                                    {
-                                                        // For OneDrive, we'll need to convert sharing URL to embed URL
-                                                        var embedUrl = videoUrl;
-                                                        if (videoUrl.Contains("?"))
-                                                        {
-                                                            embedUrl = videoUrl.Replace("?", "?action=embedview&");
-                                                        }
-                                                        else
-                                                        {
-                                                            embedUrl = videoUrl + "?action=embedview";
-                                                        }
-                                                        
-                                                        <iframe 
-                                                            class="w-full h-full" 
-                                                            src="@embedUrl" 
-                                                            title="Video Profil dari OneDrive" 
-                                                            frameborder="0" 
-                                                            allowfullscreen>
-                                                        </iframe>
-                                                    }
-                                                    else if (videoUrl.Contains("instagram.com") || videoUrl.Contains("tiktok.com"))
-                                                    {
-                                                        <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                                            <div class="text-center">
-                                                                <i class="fas fa-video text-4xl text-gray-400 mb-2"></i>
-                                                                <p class="text-sm text-gray-600 mb-3">Video dari platform lain</p>
-                                                                <span href="@videoUrl" target="_blank" 
-                                                                class="text-[#00A9B7] hover:underline font-medium">
-                                                                    <i class="fas fa-external-link-alt mr-2"></i>Lihat Video
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    }
-                                                    else
-                                                    {
-                                                        <div class="w-full h-full flex items-center justify-center bg-gray-100">
-                                                            <div class="text-center">
-                                                                <i class="fas fa-video text-4xl text-gray-400 mb-2"></i>
-                                                                <p class="text-sm text-gray-600 mb-3">Video Profil</p>
-                                                                <span href="@videoUrl" target="_blank" 
-                                                                class="text-[#00A9B7] hover:underline font-medium">
-                                                                    <i class="fas fa-external-link-alt mr-2"></i>Lihat Video Profil
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    }
+                            <div id="videos-tab" class="tab-content hidden">
+                                <div class="grid grid-cols-1 gap-6">
+                                    <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+                                        <div class="aspect-video">
+                                            @{
+                                            var videoUrl = Model.Participant.LinkVideoBusiness;
+
+                                            if (videoUrl.Contains("youtube.com") || videoUrl.Contains("youtu.be"))
+                                            {
+                                            string? videoId = null;
+
+                                            // Handle regular YouTube watch URLs
+                                            if (videoUrl.Contains("youtube.com/watch?v="))
+                                            {
+                                            var vParam = videoUrl.Split(new[] { "v=" }, StringSplitOptions.None);
+                                            if (vParam.Length > 1)
+                                            {
+                                            videoId = vParam[1].Split('&')[0];
+                                            }
+                                            }
+                                            // Handle YouTube Shorts URLs
+                                            else if (videoUrl.Contains("youtube.com/shorts/"))
+                                            {
+                                            var parts = videoUrl.Split('/');
+                                            var shortsIndex = Array.IndexOf(parts, "shorts");
+                                            if (shortsIndex >= 0 && shortsIndex < parts.Length - 1) {
+                                                videoId=parts[shortsIndex + 1].Split('?')[0]; } } // Handle youtu.be
+                                                short URLs else if (videoUrl.Contains("youtu.be/")) { var
+                                                parts=videoUrl.Split('/'); if (parts.Length> 0)
+                                                {
+                                                videoId = parts.Last().Split('?')[0];
                                                 }
-                                            </div>
+                                                }
+                                                // Handle already embedded URLs
+                                                else if (videoUrl.Contains("youtube.com/embed/"))
+                                                {
+                                                var parts = videoUrl.Split('/');
+                                                if (parts.Length > 0)
+                                                {
+                                                videoId = parts.Last().Split('?')[0];
+                                                }
+                                                }
+
+                                                if (!string.IsNullOrEmpty(videoId))
+                                                {
+                                                <iframe class="w-full h-full"
+                                                    src="https://www.youtube.com/embed/@videoId" title="Video Profil"
+                                                    frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    allowfullscreen>
+                                                </iframe>
+                                                }
+                                                else
+                                                {
+                                                <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                                                    <div class="text-center">
+                                                        <i
+                                                            class="fas fa-exclamation-triangle text-4xl text-amber-400 mb-2"></i>
+                                                        <p class="text-sm text-gray-600 mb-3">Video ID tidak dapat
+                                                            diextrak</p>
+                                                        <span href="@videoUrl" target="_blank"
+                                                            class="text-[#00A9B7] hover:underline font-medium">
+                                                            <i class="fas fa-external-link-alt mr-2"></i>Lihat Video di
+                                                            YouTube
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                }
+                                                }
+                                                // Handle Google Drive links
+                                                else if (videoUrl.Contains("drive.google.com"))
+                                                {
+                                                string? fileId = null;
+
+                                                // Handle sharing URLs like:
+                                                https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+                                                if (videoUrl.Contains("/file/d/"))
+                                                {
+                                                var match = System.Text.RegularExpressions.Regex.Match(videoUrl,
+                                                @"/file/d/([a-zA-Z0-9_-]+)");
+                                                if (match.Success)
+                                                {
+                                                fileId = match.Groups[1].Value;
+                                                }
+                                                }
+                                                // Handle open URLs like: https://drive.google.com/open?id=FILE_ID
+                                                else if (videoUrl.Contains("open?id="))
+                                                {
+                                                var idParam = videoUrl.Split(new[] { "id=" }, StringSplitOptions.None);
+                                                if (idParam.Length > 1)
+                                                {
+                                                fileId = idParam[1].Split('&')[0];
+                                                }
+                                                }
+
+                                                if (!string.IsNullOrEmpty(fileId))
+                                                {
+                                                // Google Drive embed URL format
+                                                var embedUrl = $"https://drive.google.com/file/d/{fileId}/preview";
+
+                                                <iframe class="w-full h-full" src="@embedUrl"
+                                                    title="Video Profil dari Google Drive" frameborder="0"
+                                                    allow="autoplay">
+                                                </iframe>
+                                                }
+                                                else
+                                                {
+                                                <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                                                    <div class="text-center">
+                                                        <i
+                                                            class="fas fa-exclamation-triangle text-4xl text-amber-400 mb-2"></i>
+                                                        <p class="text-sm text-gray-600 mb-3">File ID Google Drive tidak
+                                                            dapat diextrak</p>
+                                                        <span href="@videoUrl" target="_blank"
+                                                            class="text-[#00A9B7] hover:underline font-medium">
+                                                            <i class="fas fa-external-link-alt mr-2"></i>Lihat Video di
+                                                            Google Drive
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                }
+                                                }
+                                                // Handle OneDrive links
+                                                else if (videoUrl.Contains("onedrive.live.com") ||
+                                                videoUrl.Contains("1drv.ms"))
+                                                {
+                                                // For OneDrive, we'll need to convert sharing URL to embed URL
+                                                var embedUrl = videoUrl;
+                                                if (videoUrl.Contains("?"))
+                                                {
+                                                embedUrl = videoUrl.Replace("?", "?action=embedview&");
+                                                }
+                                                else
+                                                {
+                                                embedUrl = videoUrl + "?action=embedview";
+                                                }
+
+                                                <iframe class="w-full h-full" src="@embedUrl"
+                                                    title="Video Profil dari OneDrive" frameborder="0" allowfullscreen>
+                                                </iframe>
+                                                }
+                                                else if (videoUrl.Contains("instagram.com") ||
+                                                videoUrl.Contains("tiktok.com"))
+                                                {
+                                                <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                                                    <div class="text-center">
+                                                        <i class="fas fa-video text-4xl text-gray-400 mb-2"></i>
+                                                        <p class="text-sm text-gray-600 mb-3">Video dari platform lain
+                                                        </p>
+                                                        <span href="@videoUrl" target="_blank"
+                                                            class="text-[#00A9B7] hover:underline font-medium">
+                                                            <i class="fas fa-external-link-alt mr-2"></i>Lihat Video
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                }
+                                                else
+                                                {
+                                                <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                                                    <div class="text-center">
+                                                        <i class="fas fa-video text-4xl text-gray-400 mb-2"></i>
+                                                        <p class="text-sm text-gray-600 mb-3">Video Profil</p>
+                                                        <span href="@videoUrl" target="_blank"
+                                                            class="text-[#00A9B7] hover:underline font-medium">
+                                                            <i class="fas fa-external-link-alt mr-2"></i>Lihat Video
+                                                            Profil
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                }
+                                                }
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             }
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Sidebar remains the same -->
                 <div class="lg:w-2/6">
                     <div class="bg-gray-50 lg:bg-transparent p-4 lg:p-6 rounded-lg lg:sticky lg:top-4">
                         @* Media sosial section *@
-                        @if (Model.Participant.Instagram != null || Model.Participant.Tiktok != null || Model.Participant.Facebook != null || Model.Participant.X != null || Model.Participant.Youtube != null || Model.Participant.Linkedin != null)
+                        @if (Model.Participant.Instagram != null || Model.Participant.Tiktok != null ||
+                        Model.Participant.Facebook != null || Model.Participant.X != null || Model.Participant.Youtube
+                        != null || Model.Participant.Linkedin != null)
                         {
-                            <div class="mb-6">
-                                <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Media Sosial</h3>
-                                <div class="space-y-3">
-                                    @if (!string.IsNullOrEmpty(Model.Participant.Instagram))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/instagram.png" alt="Instagram" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Instagram</span>
-                                        </div>
-                                    }
-                                    @if (!string.IsNullOrEmpty(Model.Participant.Facebook))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/facebook.png" alt="Facebook" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Facebook</span>
-                                        </div>
-                                    }
-                                    @if (!string.IsNullOrEmpty(Model.Participant.X))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/X.png" alt="Twitter/X" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.X</span>
-                                        </div>
-                                    }
-                                    @if (!string.IsNullOrEmpty(Model.Participant.Linkedin))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/linkedin.png" alt="LinkedIn" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Linkedin</span>
-                                        </div>
-                                    }
-                                    @if (!string.IsNullOrEmpty(Model.Participant.Youtube))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/youtube.png" alt="YouTube" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Youtube</span>
-                                        </div>
-                                    }
-                                    @if (!string.IsNullOrEmpty(Model.Participant.Tiktok))
-                                    {
-                                        <div class="flex items-center">
-                                            <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                <img src="media/icons/duotone/Social/tiktok.png" alt="TikTok" class="w-full h-full" />
-                                            </div>
-                                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Tiktok</span>
-                                        </div>
-                                    }
-                                </div>
-                            </div>
-                        }
-
-                        @if (Model.Participant.MarketplacePlatforms != null && Model.Participant.MarketplacePlatforms.Any())
-                        {
-                            <!-- Filter out invalid marketplace entries before displaying -->
-                            var validMarketplaces = Model.Participant.MarketplacePlatforms.Where(m => 
-                                m.MarketplacePlatform != null && 
-                                !string.IsNullOrWhiteSpace(m.AccountName) && 
-                                m.AccountName != "-" && 
-                                m.AccountName.ToLower() != "null" &&
-                                m.AccountName.ToLower() != "undefined"
-                            ).ToList();
-                            
-                            @if (validMarketplaces.Any())
-                            {
-                                <div class="mb-6">
-                                    <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Platform Marketplace</h3>
-                                    <div class="space-y-3">
-                                        @foreach (var marketplace in validMarketplaces)
-                                        {
-                                            var platformName = marketplace.MarketplacePlatform.ToString().ToLower();
-                                            var logoPath = $"media/icons/duotone/marketplace/{platformName}.png";
-                                            var displayName = marketplace.MarketplacePlatform.ToString();
-                                            var accountName = marketplace.AccountName.Trim();
-
-                                            <!-- Additional validation for URL format -->
-                                            var isValidUrl = false;
-                                            var finalUrl = accountName;
-                                            
-                                            try 
-                                            {
-                                                // Check if it's already a URL
-                                                if (accountName.StartsWith("http://", StringComparison.OrdinalIgnoreCase) || 
-                                                    accountName.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
-                                                {
-                                                    var uri = new Uri(accountName);
-                                                    finalUrl = uri.ToString();
-                                                    isValidUrl = true;
-                                                }
-                                                // Check if it looks like a domain/path
-                                                else if (accountName.Contains(".") || accountName.Contains("/"))
-                                                {
-                                                    var testUri = new Uri("https://" + accountName);
-                                                    finalUrl = testUri.ToString();
-                                                    isValidUrl = true;
-                                                }
-                                                // Otherwise treat as username/handle
-                                                else
-                                                {
-                                                    finalUrl = accountName;
-                                                    isValidUrl = false;
-                                                }
-                                            }
-                                            catch (UriFormatException)
-                                            {
-                                                // If URL parsing fails, treat as plain text
-                                                finalUrl = accountName;
-                                                isValidUrl = false;
-                                            }
-
-                                            <div class="flex items-center">
-                                                <div class="w-5 h-5 mr-3 flex-shrink-0">
-                                                    <img src="@logoPath" alt="@displayName" class="w-full h-full" />
-                                                </div>
-                                                <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
-                                                    @accountName
-                                                </span>
-                                            </div>
-                                        }
-                                    </div>
-                                </div>
-                            }
-                        }
-                        
                         <div class="mb-6">
-                            <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Kontak</h3>
+                            <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Media Sosial</h3>
                             <div class="space-y-3">
-                            @if (!string.IsNullOrEmpty(Model.Participant.Website))
-                            {
-                                var webUrl = Model.Participant.Website.Trim();
-                                if (webUrl.EndsWith("/"))
+                                @if (!string.IsNullOrEmpty(Model.Participant.Instagram))
                                 {
-                                    webUrl = webUrl.Substring(0, webUrl.Length - 1);
-                                }
-                                if (!webUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) && 
-                                    !webUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
-                                {
-                                    webUrl = "https://" + webUrl;
-                                }
-                                try 
-                                {
-                                    var uri = new Uri(webUrl);
-                                    webUrl = uri.ToString();
-                                    if (webUrl.EndsWith("/"))
-                                    {
-                                        webUrl = webUrl.Substring(0, webUrl.Length - 1);
-                                    }
-                                    var displayUrl = webUrl.Replace("https://", "").Replace("http://", "");
-
-                                    <div class="flex items-start">
-                                        <i class="fas fa-globe text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
-                                        <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
-                                            @displayUrl
-                                        </span>
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/instagram.png" alt="Instagram"
+                                            class="w-full h-full" />
                                     </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Instagram</span>
+                                </div>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Participant.Facebook))
+                                {
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/facebook.png" alt="Facebook"
+                                            class="w-full h-full" />
+                                    </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Facebook</span>
+                                </div>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Participant.X))
+                                {
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/X.png" alt="Twitter/X"
+                                            class="w-full h-full" />
+                                    </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.X</span>
+                                </div>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Participant.Linkedin))
+                                {
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/linkedin.png" alt="LinkedIn"
+                                            class="w-full h-full" />
+                                    </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Linkedin</span>
+                                </div>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Participant.Youtube))
+                                {
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/youtube.png" alt="YouTube"
+                                            class="w-full h-full" />
+                                    </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Youtube</span>
+                                </div>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Participant.Tiktok))
+                                {
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="media/icons/duotone/Social/tiktok.png" alt="TikTok"
+                                            class="w-full h-full" />
+                                    </div>
+                                    <span
+                                        class="text-[#00A9B7] break-all text-xs sm:text-sm">@Model.Participant.Tiktok</span>
+                                </div>
+                                }
+                            </div>
+                        </div>
+                        }
+
+                        @if (Model.Participant.MarketplacePlatforms != null &&
+                        Model.Participant.MarketplacePlatforms.Any())
+                        {
+                        <!-- Filter out invalid marketplace entries before displaying -->
+                        var validMarketplaces = Model.Participant.MarketplacePlatforms.Where(m =>
+                        m.MarketplacePlatform != null &&
+                        !string.IsNullOrWhiteSpace(m.AccountName) &&
+                        m.AccountName != "-" &&
+                        m.AccountName.ToLower() != "null" &&
+                        m.AccountName.ToLower() != "undefined"
+                        ).ToList();
+
+                        @if (validMarketplaces.Any())
+                        {
+                        <div class="mb-6">
+                            <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Platform Marketplace</h3>
+                            <div class="space-y-3">
+                                @foreach (var marketplace in validMarketplaces)
+                                {
+                                var platformName = marketplace.MarketplacePlatform.ToString().ToLower();
+                                var logoPath = $"media/icons/duotone/marketplace/{platformName}.png";
+                                var displayName = marketplace.MarketplacePlatform.ToString();
+                                var accountName = marketplace.AccountName.Trim();
+
+                                <!-- Additional validation for URL format -->
+                                var isValidUrl = false;
+                                var finalUrl = accountName;
+
+                                try
+                                {
+                                // Check if it's already a URL
+                                if (accountName.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
+                                accountName.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+                                {
+                                var uri = new Uri(accountName);
+                                finalUrl = uri.ToString();
+                                isValidUrl = true;
+                                }
+                                // Check if it looks like a domain/path
+                                else if (accountName.Contains(".") || accountName.Contains("/"))
+                                {
+                                var testUri = new Uri("https://" + accountName);
+                                finalUrl = testUri.ToString();
+                                isValidUrl = true;
+                                }
+                                // Otherwise treat as username/handle
+                                else
+                                {
+                                finalUrl = accountName;
+                                isValidUrl = false;
+                                }
                                 }
                                 catch (UriFormatException)
                                 {
-                                    <div class="flex items-start">
-                                        <i class="fas fa-globe text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
-                                        <span class="text-gray-600 break-all text-xs sm:text-sm">
-                                            @Model.Participant.Website.TrimEnd('/')
-                                        </span>
-                                    </div>
+                                // If URL parsing fails, treat as plain text
+                                finalUrl = accountName;
+                                isValidUrl = false;
                                 }
-                            }
+
+                                <div class="flex items-center">
+                                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                        <img src="@logoPath" alt="@displayName" class="w-full h-full" />
+                                    </div>
+                                    <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
+                                        @accountName
+                                    </span>
+                                </div>
+                                }
+                            </div>
+                        </div>
+                        }
+                        }
+
+                        <div class="mb-6">
+                            <h3 class="text-sm sm:text-base font-semibold text-gray-800 mb-3">Kontak</h3>
+                            <div class="space-y-3">
+                                @if (!string.IsNullOrEmpty(Model.Participant.Website))
+                                {
+                                var webUrl = Model.Participant.Website.Trim();
+                                if (webUrl.EndsWith("/"))
+                                {
+                                webUrl = webUrl.Substring(0, webUrl.Length - 1);
+                                }
+                                if (!webUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) &&
+                                !webUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+                                {
+                                webUrl = "https://" + webUrl;
+                                }
+                                try
+                                {
+                                var uri = new Uri(webUrl);
+                                webUrl = uri.ToString();
+                                if (webUrl.EndsWith("/"))
+                                {
+                                webUrl = webUrl.Substring(0, webUrl.Length - 1);
+                                }
+                                var displayUrl = webUrl.Replace("https://", "").Replace("http://", "");
+
+                                <div class="flex items-start">
+                                    <i class="fas fa-globe text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
+                                    <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
+                                        @displayUrl
+                                    </span>
+                                </div>
+                                }
+                                catch (UriFormatException)
+                                {
+                                <div class="flex items-start">
+                                    <i class="fas fa-globe text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
+                                    <span class="text-gray-600 break-all text-xs sm:text-sm">
+                                        @Model.Participant.Website.TrimEnd('/')
+                                    </span>
+                                </div>
+                                }
+                                }
                                 @if (!string.IsNullOrEmpty(Model.Participant.Email))
                                 {
-                                    <div class="flex items-start">
-                                        <i class="fas fa-envelope text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
-                                        <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
-                                            @Model.Participant.Email
-                                        </span>
-                                    </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-envelope text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
+                                    <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
+                                        @Model.Participant.Email
+                                    </span>
+                                </div>
                                 }
                             </div>
                         </div>
@@ -624,16 +646,70 @@
         </div>
     </section>
 
-    @(await Component.InvokeAsync<Footer>())
+    <div class="bg-[#1E1E1E] text-white">
+        <div
+            class="bg-[#222222] max-w-screen-l mx-auto px-24 py-9 flex flex-col md:flex-row justify-between items-center md:items-start gap-12 md:gap-4">
+            <div
+                class="flex flex-col md:flex-row items-center md:items-center gap-4 sm:gap-6 md:gap-12 w-full md:w-auto">
+                <img src="media/logos/Pasar Kreatif Bandung - Logo.png" alt="Pasar Kreatif Bandung 2025"
+                    class="logo-img"
+                    style="height: 50px; filter: brightness(1.2); transition: all 0.3s ease; margin-bottom: 20px;" />
+                <div class="flex flex-row">
+                    <div
+                        class="flex flex-col border-l border-gray-600 pl-4 items-start sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm md:text-base w-full md:w-auto mt-3 md:mt-0">
+                        <!-- Menambahkan text-center untuk pemusatan teks -->
+                        <div class="flex items-top gap-2 justify-top">
+                            <i class="far fa-calendar-alt text-white text-lg">
+                            </i>
+                            <span class="text-white">
+                                Agustus - Oktober 2025
+                            </span>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <i class="fas fa-map-marker-alt text-white text-lg">
+                            </i>
+                            <span class="text-white">
+                                8 Mall Kota Bandung
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col text-xs sm:text-sm md:text-base space-y-1 sm:space-y-2 w-full md:w-auto text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start gap-2">
+                    <i class="fab fa-instagram text-white text-lg">
+                    </i>
+                    <span class="text-white">
+                        pasarkreatifbdg
+                    </span>
+                </div>
+                <div class="flex items-center justify-center md:justify-start gap-2">
+                    <i class="fas fa-globe text-white text-base sm:text-lg">
+                    </i>
+                    <span class="text-white">
+                        www.pasarkreatifbandung.com
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700">
+            <div
+                class="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-6 py-3 text-center text-white text-xs sm:text-sm md:text-base">
+                Pemerintah Kota Bandung | Dinas Perdagangan dan Perindustrian
+            </div>
+        </div>
+    </div>
 
     <script>
         // Tab functionality
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const tabButtons = document.querySelectorAll('.tab-button');
             const tabContents = document.querySelectorAll('.tab-content');
 
             tabButtons.forEach(button => {
-                button.addEventListener('click', function() {
+                button.addEventListener('click', function () {
                     const targetTab = this.getAttribute('data-tab');
 
                     // Remove active class from all buttons and contents
@@ -649,7 +725,7 @@
                     // Add active class to clicked button and corresponding content
                     this.classList.add('active', 'border-[#00A9B7]', 'text-[#00A9B7]');
                     this.classList.remove('border-transparent', 'text-gray-500');
-                    
+
                     const targetContent = document.getElementById(targetTab + '-tab');
                     if (targetContent) {
                         targetContent.classList.add('active');
@@ -660,8 +736,8 @@
 
             // Scroll to top functionality
             const scrollToTopBtn = document.getElementById('scrollToTopContainer');
-            
-            window.addEventListener('scroll', function() {
+
+            window.addEventListener('scroll', function () {
                 if (window.pageYOffset > 300) {
                     scrollToTopBtn.classList.remove('opacity-0', 'invisible');
                     scrollToTopBtn.classList.add('opacity-100', 'visible');
@@ -671,7 +747,7 @@
                 }
             });
 
-            scrollToTopBtn.addEventListener('click', function() {
+            scrollToTopBtn.addEventListener('click', function () {
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
@@ -684,22 +760,24 @@
         .tab-content {
             display: none;
         }
+
         .tab-content.active {
             display: block;
         }
-        
+
         .tab-button.active {
             border-bottom-color: #00A9B7 !important;
             color: #00A9B7 !important;
         }
-        
+
         #scrollToTop {
             transition: opacity 0.3s ease, visibility 0.3s ease;
         }
-        
+
         .fixed {
             position: fixed;
         }
     </style>
 </body>
+
 </html>

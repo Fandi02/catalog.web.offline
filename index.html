@@ -55,11 +55,18 @@
                 <div class="category-filters">
                     <button class="filter-btn active" data-category="">Semua</button>
                     <button class="filter-btn" data-category="Fashion">Fashion</button>
-                    <button class="filter-btn" data-category="Home Dekor">Home Decor</button>
-                    <button class="filter-btn" data-category="Kriya">Produk Kriya</button>
-                    <button class="filter-btn" data-category="Fashion Aksesoris">Fashion Aksesoris</button>
-                    <button class="filter-btn" data-category="Makanan & Minuman dalam kemasan">Makanan &
-                        Minuman</button>
+                    <button class="filter-btn" data-category="Home Dekor">
+                        Home Decor
+                    </button>
+                    <button class="filter-btn" data-category="Kriya">
+                        Produk Kriya
+                    </button>
+                    <button class="filter-btn" data-category="Fashion Aksesoris">
+                        Fashion Aksesoris
+                    </button>
+                    <button class="filter-btn" data-category="Makanan & Minuman dalam kemasan">
+                        Makanan & Minuman
+                    </button>
                 </div>
             </section>
 
@@ -75,18 +82,68 @@
             </div>
 
             <!-- End of Results Message -->
-            <div id="endMessage" class="text-center py-8 text-gray-500" style="display: none;">
+            <div id="endMessage" class="text-center py-8 text-gray-500" style="display: none">
                 <p>Semua partisipan telah ditampilkan</p>
             </div>
 
             <!-- No Results Message -->
-            <div id="noResultsMessage" class="text-center py-8 text-gray-500" style="display: none;">
+            <div id="noResultsMessage" class="text-center py-8 text-gray-500" style="display: none">
                 <i class="fas fa-search text-4xl mb-4"></i>
                 <p class="text-lg">Tidak ada partisipan yang ditemukan</p>
-                <p class="text-sm">Coba ubah kata kunci pencarian atau filter kategori</p>
+                <p class="text-sm">
+                    Coba ubah kata kunci pencarian atau filter kategori
+                </p>
             </div>
         </div>
     </main>
+
+    <div class="bg-[#1E1E1E] text-white">
+        <div
+            class="bg-[#222222] max-w-screen-l mx-auto px-24 py-9 flex flex-col md:flex-row justify-between items-center md:items-start gap-12 md:gap-4">
+            <div
+                class="flex flex-col md:flex-row items-center md:items-center gap-4 sm:gap-6 md:gap-12 w-full md:w-auto">
+                <img src="media/logos/Pasar Kreatif Bandung - Logo.png" alt="Pasar Kreatif Bandung 2025"
+                    class="logo-img" style="
+              height: 50px;
+              filter: brightness(1.2);
+              transition: all 0.3s ease;
+              margin-bottom: 20px;
+            " />
+                <div class="flex flex-row">
+                    <div
+                        class="flex flex-col border-l border-gray-600 pl-4 items-start sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm md:text-base w-full md:w-auto mt-3 md:mt-0">
+                        <!-- Menambahkan text-center untuk pemusatan teks -->
+                        <div class="flex items-top gap-2 justify-top">
+                            <i class="far fa-calendar-alt text-white text-lg"> </i>
+                            <span class="text-white"> Agustus - Oktober 2025 </span>
+                        </div>
+                        <div class="flex items-center gap-2 justify-center">
+                            <i class="fas fa-map-marker-alt text-white text-lg"> </i>
+                            <span class="text-white"> 8 Mall Kota Bandung </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col text-xs sm:text-sm md:text-base space-y-1 sm:space-y-2 w-full md:w-auto text-center md:text-left">
+                <div class="flex items-center justify-center md:justify-start gap-2">
+                    <i class="fab fa-instagram text-white text-lg"> </i>
+                    <span class="text-white"> pasarkreatifbdg </span>
+                </div>
+                <div class="flex items-center justify-center md:justify-start gap-2">
+                    <i class="fas fa-globe text-white text-base sm:text-lg"> </i>
+                    <span class="text-white"> www.pasarkreatifbandung.com </span>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700">
+            <div
+                class="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-6 py-3 text-center text-white text-xs sm:text-sm md:text-base">
+                Pemerintah Kota Bandung | Dinas Perdagangan dan Perindustrian
+            </div>
+        </div>
+    </div>
 
     <script src="./data/mall.js"></script>
     <script src="./data/SUMMARECON BANDUNG.js"></script>
@@ -101,20 +158,20 @@
         class MallParticipantLoader {
             constructor() {
                 this.currentPage = 1;
-                this.currentCategory = 'all';
-                this.currentSearch = '';
+                this.currentCategory = "all";
+                this.currentSearch = "";
                 this.currentMall = this.getMallFromUrl();
                 this.isLoading = false;
                 this.hasMore = true;
                 this.pageSize = 12;
                 this.allParticipants = [];
 
-                this.participantsGrid = document.getElementById('participantsGrid');
-                this.loadingSpinner = document.getElementById('loadingSpinner');
-                this.endMessage = document.getElementById('endMessage');
-                this.noResultsMessage = document.getElementById('noResultsMessage');
-                this.searchInput = document.getElementById('searchInput');
-                this.searchBtn = document.getElementById('searchBtn');
+                this.participantsGrid = document.getElementById("participantsGrid");
+                this.loadingSpinner = document.getElementById("loadingSpinner");
+                this.endMessage = document.getElementById("endMessage");
+                this.noResultsMessage = document.getElementById("noResultsMessage");
+                this.searchInput = document.getElementById("searchInput");
+                this.searchBtn = document.getElementById("searchBtn");
 
                 this.loadMallInfo();
                 this.init();
@@ -123,41 +180,49 @@
             // Get mall parameter from URL
             getMallFromUrl() {
                 const urlParams = new URLSearchParams(window.location.search);
-                return urlParams.get('mall') || this.getMallFromPath();
+                return urlParams.get("mall") || this.getMallFromPath();
             }
 
             // Fungsi untuk mendapatkan kategori yang aktif
             getActiveCategory() {
-                const activeBtn = document.querySelector('.filter-btn.active');
-                return activeBtn ? activeBtn.getAttribute('data-category') : null;
+                const activeBtn = document.querySelector(".filter-btn.active");
+                return activeBtn ? activeBtn.getAttribute("data-category") : null;
             }
 
             // Load mall information from mall.json
             async loadMallInfo() {
                 try {
-                    const mallsData = window.mallData
-                    
-                    const mallInfo = mallsData.find(mall => mall.mallCode === this.currentMall);
-                    
+                    const mallsData = window.mallData;
+
+                    const mallInfo = mallsData.find(
+                        (mall) => mall.mallCode === this.currentMall
+                    );
+
                     if (mallInfo) {
-                        document.getElementById('mallName').textContent = mallInfo.mallInfo.name;
-                        document.getElementById('mallLocation').textContent = mallInfo.mallInfo.location;
-                        document.getElementById('mallAddress').textContent = mallInfo.mallInfo.address;
-                        document.getElementById('mallDate').textContent = mallInfo.mallInfo.eventDate;
+                        document.getElementById("mallName").textContent =
+                            mallInfo.mallInfo.name;
+                        document.getElementById("mallLocation").textContent =
+                            mallInfo.mallInfo.location;
+                        document.getElementById("mallAddress").textContent =
+                            mallInfo.mallInfo.address;
+                        document.getElementById("mallDate").textContent =
+                            mallInfo.mallInfo.eventDate;
                     } else {
                         // Default values if mall not found
-                        document.getElementById('mallName').textContent = 'Mall Tidak Ditemukan';
-                        document.getElementById('mallLocation').textContent = '';
-                        document.getElementById('mallAddress').textContent = '';
-                        document.getElementById('mallDate').textContent = '';
+                        document.getElementById("mallName").textContent =
+                            "Mall Tidak Ditemukan";
+                        document.getElementById("mallLocation").textContent = "";
+                        document.getElementById("mallAddress").textContent = "";
+                        document.getElementById("mallDate").textContent = "";
                     }
                 } catch (error) {
-                    console.error('Error loading mall info:', error);
+                    console.error("Error loading mall info:", error);
                     // Set default values on error
-                    document.getElementById('mallName').textContent = 'Error Loading Mall Info';
-                    document.getElementById('mallLocation').textContent = '';
-                    document.getElementById('mallAddress').textContent = '';
-                    document.getElementById('mallDate').textContent = '';
+                    document.getElementById("mallName").textContent =
+                        "Error Loading Mall Info";
+                    document.getElementById("mallLocation").textContent = "";
+                    document.getElementById("mallAddress").textContent = "";
+                    document.getElementById("mallDate").textContent = "";
                 }
             }
 
@@ -171,13 +236,15 @@
                 this.loadParticipants(true); // Initial load
             }
 
-            setupCategoryFilters() {                
-                const filterButtons = document.querySelectorAll('.category-filters .filter-btn');
-                filterButtons.forEach(button => {
-                    button.addEventListener('click', (e) => {
+            setupCategoryFilters() {
+                const filterButtons = document.querySelectorAll(
+                    ".category-filters .filter-btn"
+                );
+                filterButtons.forEach((button) => {
+                    button.addEventListener("click", (e) => {
                         // Update active button
-                        filterButtons.forEach(btn => btn.classList.remove('active'));
-                        e.target.classList.add('active');
+                        filterButtons.forEach((btn) => btn.classList.remove("active"));
+                        e.target.classList.add("active");
 
                         // Reset and load new category
                         this.currentCategory = e.target.dataset.category;
@@ -187,13 +254,13 @@
             }
 
             setupSearch() {
-                this.searchBtn.addEventListener('click', () => {
+                this.searchBtn.addEventListener("click", () => {
                     this.currentSearch = this.searchInput.value.trim();
                     this.resetAndLoad();
                 });
 
-                this.searchInput.addEventListener('keypress', (e) => {
-                    if (e.key === 'Enter') {
+                this.searchInput.addEventListener("keypress", (e) => {
+                    if (e.key === "Enter") {
                         this.currentSearch = this.searchInput.value.trim();
                         this.resetAndLoad();
                     }
@@ -201,12 +268,16 @@
             }
 
             setupNavigation() {
-                const prevBtn = document.getElementById('prevBtn');
-                const nextBtn = document.getElementById('nextBtn');
+                const prevBtn = document.getElementById("prevBtn");
+                const nextBtn = document.getElementById("nextBtn");
 
                 if (prevBtn && nextBtn) {
-                    prevBtn.addEventListener('click', () => this.navigateToParticipant('prev'));
-                    nextBtn.addEventListener('click', () => this.navigateToParticipant('next'));
+                    prevBtn.addEventListener("click", () =>
+                        this.navigateToParticipant("prev")
+                    );
+                    nextBtn.addEventListener("click", () =>
+                        this.navigateToParticipant("next")
+                    );
                 }
             }
 
@@ -215,31 +286,39 @@
 
                 // Get current participant ID from URL if we're on a detail page
                 const currentPath = window.location.pathname;
-                const currentId = currentPath.includes('/detail/') ?
-                    currentPath.split('/detail/')[1] : null;
+                const currentId = currentPath.includes("detail/")
+                    ? currentPath.split("detail/")[1]
+                    : null;
 
                 let currentIndex = -1;
 
                 if (currentId) {
                     // Find current participant index
-                    currentIndex = this.allParticipants.findIndex(p =>
-                        p.businessProfileId === currentId ||
-                        p.businessProfileId.toString() === currentId
+                    currentIndex = this.allParticipants.findIndex(
+                        (p) =>
+                            p.businessProfileId === currentId ||
+                            p.businessProfileId.toString() === currentId
                     );
                 }
 
                 let targetIndex;
-                if (direction === 'next') {
-                    targetIndex = currentIndex === -1 ? 0 :
-                        (currentIndex + 1) % this.allParticipants.length;
+                if (direction === "next") {
+                    targetIndex =
+                        currentIndex === -1
+                            ? 0
+                            : (currentIndex + 1) % this.allParticipants.length;
                 } else {
-                    targetIndex = currentIndex === -1 ? this.allParticipants.length - 1 :
-                        currentIndex === 0 ? this.allParticipants.length - 1 : currentIndex - 1;
+                    targetIndex =
+                        currentIndex === -1
+                            ? this.allParticipants.length - 1
+                            : currentIndex === 0
+                                ? this.allParticipants.length - 1
+                                : currentIndex - 1;
                 }
 
                 const targetParticipant = this.allParticipants[targetIndex];
                 if (targetParticipant && targetParticipant.businessProfileId) {
-                    window.location.href = `/detail/${targetParticipant.businessProfileId}`;
+                    window.location.href = `detail/${targetParticipant.businessProfileId}`;
                 }
             }
 
@@ -247,17 +326,18 @@
                 this.currentPage = 1;
                 this.hasMore = true;
                 this.allParticipants = []; // Reset participants array
-                this.participantsGrid.innerHTML = '';
-                this.endMessage.style.display = 'none';
-                this.noResultsMessage.style.display = 'none';
+                this.participantsGrid.innerHTML = "";
+                this.endMessage.style.display = "none";
+                this.noResultsMessage.style.display = "none";
                 this.loadParticipants(true);
             }
 
             setupInfiniteScroll() {
-                window.addEventListener('scroll', () => {
+                window.addEventListener("scroll", () => {
                     if (this.isLoading || !this.hasMore) return;
 
-                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    const scrollTop =
+                        window.pageYOffset || document.documentElement.scrollTop;
                     const windowHeight = window.innerHeight;
                     const documentHeight = document.documentElement.scrollHeight;
 
@@ -275,21 +355,21 @@
                 this.showLoading();
 
                 try {
-
                     const data = window[this.currentMall];
                     var dataFiltered;
-                    
+
                     if (this.getActiveCategory() != "") {
                         console.log(this.getActiveCategory());
-                        
-                        dataFiltered = data.filter(item => item.categoryName == this.getActiveCategory())
-                    }
-                    else {
+
+                        dataFiltered = data.filter(
+                            (item) => item.categoryName == this.getActiveCategory()
+                        );
+                    } else {
                         dataFiltered = data;
                     }
 
                     if (dataFiltered.error) {
-                        console.error('Error loading participants:', dataFiltered.error);
+                        console.error("Error loading participants:", dataFiltered.error);
                         return;
                     }
 
@@ -301,14 +381,13 @@
 
                     // Show end message if no more dataFiltered
                     if (!this.hasMore && !isInitial && dataFiltered.length > 0) {
-                        this.endMessage.style.display = 'block';
+                        this.endMessage.style.display = "block";
                     }
-
                 } catch (error) {
-                    console.error('Error loading participants:', error);
+                    console.error("Error loading participants:", error);
                     // Show error message to user
                     if (isInitial) {
-                        this.noResultsMessage.style.display = 'block';
+                        this.noResultsMessage.style.display = "block";
                     }
                     this.hasMore = false; // Stop trying to load more on error
                 } finally {
@@ -319,38 +398,44 @@
 
             renderParticipants(participants, isInitial = false) {
                 if (isInitial) {
-                    this.participantsGrid.innerHTML = '';
-                    this.noResultsMessage.style.display = 'none';
+                    this.participantsGrid.innerHTML = "";
+                    this.noResultsMessage.style.display = "none";
                 }
 
-                participants.forEach(participant => {
+                participants.forEach((participant) => {
                     const participantCard = this.createParticipantCard(participant);
                     this.participantsGrid.appendChild(participantCard);
                 });
             }
 
             createParticipantCard(participant) {
-                const card = document.createElement('div');
-                card.className = 'participant-card';
+                const card = document.createElement("div");
+                card.className = "participant-card";
 
                 // Add click event to navigate to detail page
-                card.addEventListener('click', () => {
+                card.addEventListener("click", () => {
                     if (participant.businessProfileId) {
-                        window.location.href = `/mall/detail/detail?id=${participant.businessProfileId}&mall=${encodeURIComponent(this.currentMall)}`;
+                        window.location.href = `detail.html?id=${participant.businessProfileId
+                            }&mall=${encodeURIComponent(this.currentMall)}`;
                     }
                 });
 
                 card.innerHTML = `
-                  <img src="${participant.logo || 'media/logos/Pasar Kreatif Bandung - About.png'}" 
+                  <img src="${participant.logo ||
+                    "media/logos/Pasar Kreatif Bandung - About.png"
+                    }" 
                      alt="${participant.businessName}" 
                      class="participant-logo" 
                      onerror="this.src='media/logos/Pasar Kreatif Bandung - About.png'">
                   <div class="participant-info">
-                     <h3 class="participant-name">${participant.businessName || 'Nama tidak tersedia'}</h3>
+                     <h3 class="participant-name">${participant.businessName || "Nama tidak tersedia"
+                    }</h3>
                      <div class="participant-category-container">
-                        <p class="participant-category">${participant.categoryName || 'Kategori tidak tersedia'}</p>
+                        <p class="participant-category">${participant.categoryName || "Kategori tidak tersedia"
+                    }</p>
                      </div>
-                     <p class="participant-description">${participant.description || 'Deskripsi tidak tersedia'}</p>
+                     <p class="participant-description">${participant.description || "Deskripsi tidak tersedia"
+                    }</p>
                   </div>
             `;
 
@@ -358,27 +443,26 @@
             }
 
             showLoading() {
-                this.loadingSpinner.classList.add('show');
+                this.loadingSpinner.classList.add("show");
             }
 
             hideLoading() {
-                this.loadingSpinner.classList.remove('show');
+                this.loadingSpinner.classList.remove("show");
             }
         }
 
         // Global function to change mall
         function changeMall(mallName) {
             const currentUrl = new URL(window.location);
-            currentUrl.searchParams.set('mall', mallName);
+            currentUrl.searchParams.set("mall", mallName);
             window.location.href = currentUrl.toString();
         }
 
         // Initialize when DOM is loaded
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener("DOMContentLoaded", () => {
             new MallParticipantLoader();
         });
     </script>
-
 </body>
 
 </html>

@@ -1,0 +1,745 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Pasar Kreatif Bandung 2025</title>
+    <link rel="stylesheet" href="css/participant.css" />
+    <link rel="stylesheet" href="css/output.css" />
+     <link rel="stylesheet" href="css/fontawesome-free-7.0.0-web/css/all.min.css" />
+  </head>
+
+  <body>
+    <header class="header-component">
+      <div class="sticky top-0 z-50 bg-[#1E1E1E]">
+        <div
+          id="top-bar"
+          class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-24 py-3 border-b border-gray-700 overflow-hidden transition-all duration-500 ease-in-out"
+        >
+          <a href="">
+            <div class="flex items-center space-x-2 mb-3 sm:mb-0">
+              <img
+                src="media/logos/Pasar Kreatif Bandung - Logo.png"
+                alt="Pasar Kreatif Bandung 2025"
+                class="h-8 sm:h-12 md:h-12 filter brightness-[1.2] transition-all duration-300 ease-in-out"
+              />
+            </div>
+          </a>
+          <div
+            class="text-[#FFD166] text-center sm:text-right text-md sm:text-base font-large whitespace-nowrap mb-3 sm:mb-0 flex-1 px-0 sm:px-6"
+          >
+            Agustus - Oktober 2025, di 8 Mall Kota Bandung
+          </div>
+          <a
+            href=""
+            id="backHomeButton"
+            class="bg-[#00A9B7] text-white rounded px-4 py-2 text-sm sm:text-base font-normal hover:bg-[#008a95] transition w-full sm:w-auto"
+          >
+            Beranda
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Fixed Navigation Buttons -->
+    <a
+      href=""
+      id="prevParticipant"
+      class="fixed left-4 top-1/2 transform -translate-y-1/2 z-30 bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full w-24 h-24 flex items-center justify-center shadow-lg transition-all duration-300"
+      title="Partisipan Sebelumnya"
+    >
+      <i class="fas fa-chevron-left text-3xl"></i>
+    </a>
+
+    <a
+      href=""
+      id="nextParticipant"
+      class="fixed right-4 top-1/2 transform -translate-y-1/2 z-30 bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full w-24 h-24 flex items-center justify-center shadow-lg transition-all duration-300"
+      title="Partisipan Selanjutnya"
+    >
+      <i class="fas fa-chevron-right text-3xl"></i>
+    </a>
+
+    <!-- Scroll to Top Button with Label -->
+    <div
+      id="scrollToTopContainer"
+      class="fixed bottom-[12.5rem] left-[85%] -translate-x-1/2 z-30 flex flex-col items-center opacity-0 invisible transition-all duration-300"
+    >
+      <button
+        id="scrollToTop"
+        class="bg-[#00A9B7] hover:bg-[#008a95] text-white rounded-full w-24 h-24 flex items-center justify-center shadow-lg transition-all duration-300 mb-2"
+      >
+        <i class="fas fa-chevron-up text-3xl"></i>
+      </button>
+      <span class="text-lg text-[#00A9B7] px-2 py-1 rounded">
+        Kembali ke atas
+      </span>
+    </div>
+
+    <div class="w-full h-16 sm:h-24 md:h-80 lg:h-84 object-cover">
+      <img
+        src="media/images/Header_default.png"
+        alt="Banner"
+        class="w-full h-28 sm:h-64 md:h-80 lg:h-84 object-cover"
+        id="banner"
+      />
+    </div>
+
+    <section class="bg-white py-8 md:py-16 px-10">
+      <div class="max-w-7xl mx-auto px-[20px] sm:px-6 lg:px-12">
+        <div class="flex flex-col lg:flex-row gap-6 lg:gap-5">
+          <div class="lg:w-4/6">
+            <!-- Business Info Section -->
+            <div
+              class="flex flex-row w-full gap-4 sm:gap-6 items-end sm:items-start mb-6 md:mb-8"
+            >
+              <div
+                class="flex-shrink-0 border border-gray-200 items-start rounded-lg p-1 bg-white sm:mx-0"
+              >
+                <img
+                  alt=""
+                  class="w-36 h-36 sm:w-64 sm:h-64 object-cover rounded-md"
+                  src="media/logos/Pasar Kreatif Bandung - About.png"
+                  id="business_image"
+                />
+              </div>
+              <div class="flex-1 text-left">
+                <h1
+                  class="text-2xl sm:text-3xl md:text-4xl font-bold text-[#073B4C] mb-2"
+                  id="business_name"
+                ></h1>
+                <div class="flex items-center justify-start text-gray-600 mb-4">
+                  <i class="fas fa-map-marker-alt mr-2"></i>
+                  <span class="text-md text-2xl">
+                    <span class="text-gray-400" id="mall-name"
+                      >Belum terjadwal</span
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+                Deskripsi Partisipan
+              </h2>
+              <div
+                class="text-gray-700 leading-relaxed text-md sm:text-xl"
+                id="description"
+              ></div>
+            </div>
+            <div>
+              <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
+                Kategori
+              </h2>
+              <span
+                class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-md px-4 py-3 rounded-md border"
+                id="category-name"
+              >
+              </span>
+            </div>
+            <!-- Tabs Section -->
+            <div class="mt-8 mb-8">
+              <div class="border-b border-gray-200">
+                <nav class="-mb-px flex space-x-8">
+                  <button
+                    class="tab-button active border-b-2 border-[#00A9B7] py-2 px-1 text-base font-medium text-[#00A9B7] products-tab"
+                    data-tab="products"
+                    hidden
+                  >
+                    <i class="fas fa-box mr-2"></i>Produk (<span
+                      id="count-product"
+                    ></span
+                    >)
+                  </button>
+                  <button
+                    class="tab-button border-b-2 border-transparent py-2 px-1 text-base font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 documents-tab"
+                    data-tab="documents"
+                    hidden
+                  >
+                    <i class="fas fa-file-alt mr-2"></i>Dokumen (<span id="count-document"></span>)
+                  </button>
+                </nav>
+              </div>
+
+              <!-- Tab Contents -->
+              <div class="mt-6">
+                <!-- Products Tab -->
+                <div
+                  id="products-tab"
+                  class="tab-content active products-tab"
+                  hidden
+                ></div>
+
+                <!-- Documents Tab -->
+                <div id="documents-tab" class="tab-content hidden documents-tab" hidden>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sidebar remains the same -->
+          <div class="lg:w-2/6">
+            <div
+              class="bg-gray-50 lg:bg-transparent p-4 lg:p-6 rounded-lg lg:sticky lg:top-4"
+              id="container-social-media"
+              hidden
+            >
+              <div class="mb-6">
+                <h3
+                  class="text-sm sm:text-base font-semibold text-gray-800 mb-3"
+                >
+                  Media Sosial
+                </h3>
+                <div class="space-y-3">
+                  <div
+                    class="flex items-center"
+                    id="container-instagram"
+                    hidden
+                  >
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/instagram.png"
+                        alt="Instagram"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="instagram"
+                    ></span>
+                  </div>
+                  <div class="flex items-center" id="container-facebook" hidden>
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/facebook.png"
+                        alt="Facebook"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="facebook"
+                    ></span>
+                  </div>
+                  <div class="flex items-center" id="container-x" hidden>
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/X.png"
+                        alt="Twitter/X"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="x"
+                    ></span>
+                  </div>
+                  <div class="flex items-center" id="container-linkedin" hidden>
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/linkedin.png"
+                        alt="LinkedIn"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="linkedin"
+                    ></span>
+                  </div>
+                  <div class="flex items-center" id="container-youtube" hidden>
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/youtube.png"
+                        alt="YouTube"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="youtube"
+                    ></span>
+                  </div>
+                  <div class="flex items-center" id="container-tiktok" hidden>
+                    <div class="w-5 h-5 mr-3 flex-shrink-0">
+                      <img
+                        src="media/icons/duotone/Social/tiktok.png"
+                        alt="TikTok"
+                        class="w-full h-full"
+                      />
+                    </div>
+                    <span
+                      class="text-[#00A9B7] break-all text-xs sm:text-sm"
+                      id="tiktok"
+                    ></span>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-6" id="container-marketplace" hidden>
+                <h3
+                  class="text-sm sm:text-base font-semibold text-gray-800 mb-3"
+                >
+                  Platform Marketplace
+                </h3>
+                <div class="space-y-3" id="marketplace"></div>
+              </div>
+
+              <div class="mb-6">
+                <h3
+                  class="text-sm sm:text-base font-semibold text-gray-800 mb-3"
+                >
+                  Kontak
+                </h3>
+                <div class="space-y-3">
+                    <div class="flex items-start">
+                        <i class="fas fa-envelope text-[#00A9B7] mt-1 mr-3 flex-shrink-0"></i>
+                        <span class="text-[#00A9B7] break-all text-xs sm:text-sm" id="contact">
+                        
+                        </span>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <h3
+                  class="text-sm sm:text-base font-semibold text-gray-800 mb-3"
+                >
+                  Alamat
+                </h3>
+                <div
+                  class="text-gray-700 text-xs sm:text-sm leading-relaxed"
+                  id="address"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-[#1E1E1E] text-white">
+      <div
+        class="bg-[#222222] max-w-screen-l mx-auto px-24 py-9 flex flex-col md:flex-row justify-between items-center md:items-start gap-12 md:gap-4"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center md:items-center gap-4 sm:gap-6 md:gap-12 w-full md:w-auto"
+        >
+          <img
+            src="media/logos/Pasar Kreatif Bandung - Logo.png"
+            alt="Pasar Kreatif Bandung 2025"
+            class="logo-img"
+            style="
+              height: 50px;
+              filter: brightness(1.2);
+              transition: all 0.3s ease;
+              margin-bottom: 20px;
+            "
+          />
+          <div class="flex flex-row">
+            <div
+              class="flex flex-col border-l border-gray-600 pl-4 items-start sm:pl-6 space-y-1 sm:space-y-2 text-xs sm:text-sm md:text-base w-full md:w-auto mt-3 md:mt-0"
+            >
+              <!-- Menambahkan text-center untuk pemusatan teks -->
+              <div class="flex items-top gap-2 justify-top">
+                <i class="far fa-calendar-alt text-white text-lg"> </i>
+                <span class="text-white"> Agustus - Oktober 2025 </span>
+              </div>
+              <div class="flex items-center gap-2 justify-center">
+                <i class="fas fa-map-marker-alt text-white text-lg"> </i>
+                <span class="text-white"> 8 Mall Kota Bandung </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col text-xs sm:text-sm md:text-base space-y-1 sm:space-y-2 w-full md:w-auto text-center md:text-left"
+        >
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <i class="fab fa-instagram text-white text-lg"> </i>
+            <span class="text-white"> pasarkreatifbdg </span>
+          </div>
+          <div class="flex items-center justify-center md:justify-start gap-2">
+            <i class="fas fa-globe text-white text-base sm:text-lg"> </i>
+            <span class="text-white"> www.pasarkreatifbandung.com </span>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700">
+        <div
+          class="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-6 py-3 text-center text-white text-xs sm:text-sm md:text-base"
+        >
+          Pemerintah Kota Bandung | Dinas Perdagangan dan Perindustrian
+        </div>
+      </div>
+    </div>
+
+    <script src="./data/mall.js"></script>
+    <script src="./data/SUMMARECON BANDUNG.js"></script>
+    <script src="./data/BOTANICA.js"></script>
+    <script src="./data/23 PASKAL SHOPPING CENTER.js"></script>
+    <script src="./data/FESTLINK.js"></script>
+    <script src="./data/KINGS SHOPPING CENTER.js"></script>
+    <script src="./data/CIHAMPELAS WALK.js"></script>
+    <script src="./data/TRANS STUDIO MALL.js"></script>
+    <script src="./data/PARIS VAN JAVA.js"></script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const mallValue = urlParams.get("mall");
+      const idValue = urlParams.get("id");
+
+      if (mallValue) {
+        const backHomeButton = document.getElementById("backHomeButton");
+        backHomeButton.href = `index.html?mall=${encodeURIComponent(
+          mallValue
+        )}`;
+      }
+
+      async function DetailParticipant() {
+        const participant = window[mallValue];
+        const participantById = participant.filter(
+          (item) => item.businessProfileId == idValue
+        );
+
+        console.log(participantById[0]);
+
+        if (
+          participantById[0].photoHeader != null &&
+          participantById[0].photoHeader != ""
+        ) {
+          document.getElementById("banner").src =
+            participantById[0].photoHeader;
+        }
+
+        if (participantById[0].logo != null && participantById[0].logo != "") {
+          document.getElementById("business_image").src =
+            participantById[0].logo;
+        }
+
+        document.getElementById("business_name").innerHTML =
+          participantById[0].businessName;
+        document.getElementById("mall-name").innerHTML =
+          participantById[0].mallPKB2025;
+        document.getElementById("description").innerHTML =
+          participantById[0].description;
+        document.getElementById("category-name").innerHTML =
+          participantById[0].categoryName;
+        document.getElementById("count-product").innerHTML =
+          participantById[0].productItems.length;
+        document.getElementById("count-document").innerHTML =
+          participantById[0].documentItems.length;
+
+        var instagram = participantById[0].instagram;
+        var facebook = participantById[0].facebook;
+        var x = participantById[0].x;
+        var linkedin = participantById[0].linkedin;
+        var youtube = participantById[0].youtube;
+        var tiktok = participantById[0].tiktok;
+
+        // product
+        if (participantById[0].productItems.length > 0) {
+          document.querySelectorAll(".products-tab").forEach((element) => {
+            element.hidden = false;
+          });
+
+          let htmlContent = "";
+
+          for (let i = 0; i < participantById[0].productItems.length; i++) {
+            const product = participantById[0].productItems[i];
+
+            htmlContent += `
+                        <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm mb-6">
+                            <h3 class="text-xl sm:text-2xl font-bold text-[#073B4C] mb-6 p-6 pb-0">${product.productName}</h3>
+
+                            <!-- Full width product image like document section -->
+                            <div class="bg-gray-100">
+                                <img alt="${product.productName}" class="w-full h-[600px] object-contain"
+                                    src="${product.photoProduct}" />
+                            </div>
+
+                            <!-- Full width content section -->
+                            <div class="p-6 space-y-6">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-3 text-xl">Deskripsi Produk</h4>
+                                    <p class="text-gray-700 leading-relaxed text-lg">
+                                        ${product.description}
+                                    </p>
+                                </div>
+                            <div>
+                            <h4 class="font-semibold text-gray-800 mb-4 text-xl">Bahan Baku</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="inline-block border-[#D5D5D5] bg-gray-100 text-gray-800 text-lg px-4 py-3 rounded-md border">
+                                    ${product.rawMaterialName}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    `;
+          }
+
+          document.getElementById("products-tab").innerHTML = htmlContent;
+        }
+
+        if (
+          participantById[0].documentItems &&
+          participantById[0].documentItems.length > 0
+        ) {
+          // Tampilkan tab documents
+          document.querySelectorAll(".documents-tab").forEach((element) => {
+            element.hidden = false;
+          });
+
+          let htmlContent = "";
+
+          for (let i = 0; i < participantById[0].documentItems.length; i++) {
+            const document = participantById[0].documentItems[i];
+
+            const fileExtension = document.documentFileName.toLowerCase().split(".").pop();
+
+            let documentContent = "";
+
+            if (fileExtension === "pdf") {
+              documentContent = `
+                <iframe src="${document.documentFile}#toolbar=0&navpanes=0&scrollbar=0" 
+                    class="w-full h-full" 
+                    title="Document Preview"></iframe>
+            `;
+            } else if (
+              ["jpg", "jpeg", "png", "gif", "webp"].includes(fileExtension)
+            ) {
+              documentContent = `
+                <img src="${document.documentFile}" 
+                    alt="Document Preview" 
+                    class="w-full h-full object-contain" />
+            `;
+            } else {
+              documentContent = `
+                <div class="w-full h-full flex items-center justify-center bg-gray-100">
+                    <div class="text-center">
+                        <i class="fas fa-file text-4xl text-gray-400 mb-2"></i>
+                        <p class="text-sm text-gray-500">Preview not available</p>
+                        <p class="text-xs text-gray-400 mt-1">${fileExtension.toUpperCase()} file</p>
+                    </div>
+                </div>
+            `;
+            }
+
+            htmlContent += `
+            <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm mb-6">
+                <div class="h-[842px] bg-gray-100">
+                    ${documentContent}
+                </div>
+            </div>
+        `;
+          }
+
+          document.getElementById("documents-tab").innerHTML = htmlContent;
+        } else {
+          // Sembunyikan tab documents jika tidak ada dokumen
+          document.querySelectorAll(".documents-tab").forEach((element) => {
+            element.hidden = true;
+          });
+        }
+
+        // social media
+        if (
+          instagram != null &&
+          instagram != "" &&
+          facebook != null &&
+          facebook != "" &&
+          x != null &&
+          x != "" &&
+          linkedin != null &&
+          linkedin != "" &&
+          youtube != null &&
+          youtube != "" &&
+          tiktok != null &&
+          tiktok != ""
+        ) {
+          document.getElementById("container-social-media").hidden = true;
+        } else {
+          document.getElementById("container-social-media").hidden = false;
+
+          if (instagram != null && instagram != "") {
+            document.getElementById("container-instagram").hidden = false;
+            document.getElementById("instagram").innerHTML = instagram;
+          }
+
+          if (facebook != null && facebook != "") {
+            document.getElementById("container-facebook").hidden = false;
+            document.getElementById("facebook").innerHTML = facebook;
+          }
+
+          if (x != null && x != "") {
+            document.getElementById("container-x").hidden = false;
+            document.getElementById("x").innerHTML = x;
+          }
+
+          if (linkedin != null && linkedin != "") {
+            document.getElementById("container-linkedin").hidden = false;
+            document.getElementById("linkedin").innerHTML = linkedin;
+          }
+
+          if (youtube != null && youtube != "") {
+            document.getElementById("container-youtube").hidden = false;
+            document.getElementById("youtube").innerHTML = youtube;
+          }
+
+          if (tiktok != null && tiktok != "") {
+            document.getElementById("container-tiktok").hidden = false;
+            document.getElementById("tiktok").innerHTML = tiktok;
+          }
+        }
+
+        // marketplace
+        if (!participantById[0].isHaveMarketplace) {
+          document.getElementById("container-marketplace").hidden = true;
+        } else {
+          document.getElementById("container-marketplace").hidden = false;
+
+          let htmlContent = "";
+
+          for (
+            let i = 0;
+            i < participantById[0].businessMarketplaceItem.length;
+            i++
+          ) {
+            const marketplace = participantById[0].businessMarketplaceItem[i];
+
+            htmlContent += `
+                        <div class="flex items-center">
+                            <div class="w-5 h-5 mr-3 flex-shrink-0">
+                                <img src="media/icons/duotone/marketplace/${marketplace.marketplacePlatformName}.png" alt="${marketplace.accountName}" class="w-full h-full" />
+                            </div>
+                            <span class="text-[#00A9B7] break-all text-xs sm:text-sm">
+                                ${marketplace.accountName}
+                            </span>
+                        </div>
+                    `;
+          }
+
+          document.getElementById("marketplace").innerHTML = htmlContent;
+        }
+
+        document.getElementById("contact").innerHTML = participantById[0].email;
+        document.getElementById("address").innerHTML =
+          participantById[0].address;
+      }
+
+      DetailParticipant();
+
+      // Tab functionality
+      document.addEventListener("DOMContentLoaded", function () {
+        const tabButtons = document.querySelectorAll(".tab-button");
+        const tabContents = document.querySelectorAll(".tab-content");
+
+        tabButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const targetTab = this.getAttribute("data-tab");
+
+            // Remove active class from all buttons and contents
+            tabButtons.forEach((btn) => {
+              btn.classList.remove(
+                "active",
+                "border-[#00A9B7]",
+                "text-[#00A9B7]"
+              );
+              btn.classList.add("border-transparent", "text-gray-500");
+            });
+            tabContents.forEach((content) => {
+              content.classList.remove("active");
+              content.classList.add("hidden");
+            });
+
+            // Add active class to clicked button and corresponding content
+            this.classList.add("active", "border-[#00A9B7]", "text-[#00A9B7]");
+            this.classList.remove("border-transparent", "text-gray-500");
+
+            const targetContent = document.getElementById(targetTab + "-tab");
+            if (targetContent) {
+              targetContent.classList.add("active");
+              targetContent.classList.remove("hidden");
+            }
+          });
+        });
+
+        // Scroll to top functionality
+        const scrollToTopBtn = document.getElementById("scrollToTopContainer");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 300) {
+            scrollToTopBtn.classList.remove("opacity-0", "invisible");
+            scrollToTopBtn.classList.add("opacity-100", "visible");
+          } else {
+            scrollToTopBtn.classList.add("opacity-0", "invisible");
+            scrollToTopBtn.classList.remove("opacity-100", "visible");
+          }
+        });
+
+        scrollToTopBtn.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      });
+
+      function setupParticipantNavigation() {
+        const participants = window[mallValue];
+        const currentIndex = participants.findIndex(item => item.businessProfileId == idValue);
+        
+        const prevParticipant = document.getElementById('prevParticipant');
+        const nextParticipant = document.getElementById('nextParticipant');
+        
+        // Hide buttons if there's only one participant
+        if (participants.length <= 1) {
+            prevParticipant.style.display = 'none';
+            nextParticipant.style.display = 'none';
+            return;
+        }
+        
+        // Set up previous participant link
+        if (currentIndex > 0) {
+            const prevId = participants[currentIndex - 1].businessProfileId;
+            prevParticipant.href = `detail.html?mall=${encodeURIComponent(mallValue)}&id=${prevId}`;
+        } else {
+            prevParticipant.hidden = true;
+        }
+        
+        // Set up next participant link
+        if (currentIndex < participants.length - 1) {
+            const nextId = participants[currentIndex + 1].businessProfileId;
+            nextParticipant.href = `detail.html?mall=${encodeURIComponent(mallValue)}&id=${nextId}`;
+        } else {
+            nextParticipant.hidden = true;
+        }
+    }
+    
+    // Call this function after DetailParticipant()
+    DetailParticipant().then(setupParticipantNavigation);
+    </script>
+
+    <style>
+      .tab-content {
+        display: none;
+      }
+
+      .tab-content.active {
+        display: block;
+      }
+
+      .tab-button.active {
+        border-bottom-color: #00a9b7 !important;
+        color: #00a9b7 !important;
+      }
+
+      #scrollToTop {
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
+
+      .fixed {
+        position: fixed;
+      }
+    </style>
+  </body>
+</html>

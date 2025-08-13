@@ -445,14 +445,22 @@
           for (let i = 0; i < participantById[0].productItems.length; i++) {
             const product = participantById[0].productItems[i];
 
+            var imageProduct
+
+            if (product.photoProduct != null && product.photoProduct != "") {
+                imageProduct = `<img alt="${product.productName}" class="w-full h-[600px] object-contain"src="${product.photoProduct}" />`
+            }
+            else {
+                imageProduct = `<img alt="${product.productName}" class="w-full h-[600px] object-contain"src="media/logos/Pasar Kreatif Bandung - Logo.png" />`
+            }
+
             htmlContent += `
                         <div class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm mb-6">
                             <h3 class="text-xl sm:text-2xl font-bold text-[#073B4C] mb-6 p-6 pb-0">${product.productName}</h3>
 
                             <!-- Full width product image like document section -->
                             <div class="bg-gray-100">
-                                <img alt="${product.productName}" class="w-full h-[600px] object-contain"
-                                    src="${product.photoProduct}" />
+                                ${imageProduct}
                             </div>
 
                             <!-- Full width content section -->

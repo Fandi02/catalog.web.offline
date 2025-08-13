@@ -2843,7 +2843,7 @@ window.BOTANICA =
                     "subMaterialName": [
                         "Makanan Olahan"
                     ],
-                    "photoProduct": "upload/PhotoProduct/48d1a2a4-10a1-44e5-84e5-f138ed8f05bb-IMG-20240723-WA0096%281%29.jpg",
+                    "photoProduct": "upload/PhotoProduct/48d1a2a4-10a1-44e5-84e5-f138ed8f05bb-IMG-20240723-WA0096(1).jpg",
                     "createdAt": "2025-08-05T12:27:57.434125Z"
                 },
                 {

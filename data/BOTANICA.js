@@ -3322,7 +3322,7 @@ window.BOTANICA =
                 },
                 {
                     "marketplacePlatform": 4,
-                    "marketplacePlatformName": "BliBli",
+                    "marketplacePlatformName": "Blibli",
                     "accountName": "meetafauzan"
                 }
             ],

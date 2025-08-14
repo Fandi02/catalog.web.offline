@@ -614,6 +614,9 @@
           ) {
             const marketplace = participantById[0].businessMarketplaceItem[i];
 
+            if (marketplace.marketplacePlatform == 1 || marketplace.marketplacePlatform == 0)
+              continue;
+
             htmlContent += `
                         <div class="flex items-center">
                             <div class="w-5 h-5 mr-3 flex-shrink-0">

@@ -103,7 +103,7 @@ window["PARIS VAN JAVA"] =
             "categoryName": "Kriya",
             "subCategoryName": "",
             "logo": "upload/BusinessLogo/518e211f-a28b-48f7-9524-74cdb2b63040-Arcisubymonalisacollection_logo.jpg",
-            "photoHeader": "upload/PhotoHeader/69920bf2-8973-43a3-a73a-14c8dc561b68-WhatsApp Image 2025-02-06 at 09.11.42 %2816%29.jpeg",
+            "photoHeader": "upload/PhotoHeader/69920bf2-8973-43a3-a73a-14c8dc561b68-ArcisubyMonalisaCollection.jpeg",
             "address": "Jl Halteu Utara 12 No 2 Rt 10 , Rw 02 kelurahan : Dungus Cariang , Kecamatan : Andir Kota Bandung",
             "city": 1,
             "cityName": "BandungCity",
@@ -370,7 +370,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Ardelya_Craft"
                 },
                 {
@@ -555,7 +555,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Artikala.id"
                 }
             ],
@@ -681,7 +681,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "batikreunceum"
                 },
                 {
@@ -829,7 +829,7 @@ window["PARIS VAN JAVA"] =
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
             "subCategoryName": "",
-            "logo": "upload/BusinessLogo/1f5052e3-be98-421f-a6e8-4491510e2fde-LOGO BLANKENHEIM  01_UTAMA_WHITEBACKGROUND%5B94%5D.png",
+            "logo": "upload/BusinessLogo/1f5052e3-be98-421f-a6e8-4491510e2fde-LOGOBLANKENHEIM.png",
             "photoHeader": "upload/PhotoHeader/79255b00-e92c-4bce-9f78-5b91a4a01f6a-handgefertigte lederwaren.png",
             "address": "Jalan Aria Jipang No.1 ",
             "city": 1,
@@ -902,7 +902,7 @@ window["PARIS VAN JAVA"] =
                     "subMaterialName": [
                         "Kulit"
                     ],
-                    "photoProduct": "upload/PhotoProduct/016a3711-5fab-4ef2-93f4-1548056d5b2a-BRAND HALLOBLANKENHEIM %28BG BROWN%293231_2.jpg",
+                    "photoProduct": "upload/PhotoProduct/016a3711-5fab-4ef2-93f4-1548056d5b2a-BRANDHALLOBLANKENHEIM.jpg",
                     "createdAt": "2025-08-03T07:55:56.353014Z"
                 }
             ],
@@ -979,7 +979,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Blankenheim"
                 }
             ],
@@ -1031,7 +1031,7 @@ window["PARIS VAN JAVA"] =
                     "subMaterialName": [
                         "Minuman Olahan"
                     ],
-                    "photoProduct": "upload/PhotoProduct/2d7d7dec-ff8a-4cc9-839b-f042b213128a-WhatsApp Image 2021-06-11 at 17.50.40 %283%29.jpeg",
+                    "photoProduct": "upload/PhotoProduct/2d7d7dec-ff8a-4cc9-839b-f042b213128a-WhatsAppImage.jpeg",
                     "createdAt": "2025-08-01T14:11:39.357636Z"
                 }
             ],
@@ -1156,7 +1156,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Buhun Soendari"
                 }
             ],
@@ -1901,7 +1901,7 @@ window["PARIS VAN JAVA"] =
             "categoryName": "Fashion",
             "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
             "subCategoryName": "Pakaian Jadi",
-            "logo": "upload/BusinessLogo/138f9210-a47d-4b63-8cab-34304d3ba261-output-onlinepngtools-2%281%29.png",
+            "logo": "upload/BusinessLogo/138f9210-a47d-4b63-8cab-34304d3ba261-output-onlinepngtools-2(1).png",
             "address": "Setra Dago Utara 2 no 8 Antapani",
             "city": 1,
             "cityName": "BandungCity",
@@ -2733,7 +2733,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "sabirafe_id"
                 },
                 {
@@ -2792,7 +2792,7 @@ window["PARIS VAN JAVA"] =
                         "Batik",
                         "Bordir"
                     ],
-                    "photoProduct": "upload/PhotoProduct/94c66603-8d59-4dc1-81f9-c5aa17f23d0b-DSC07825 %281%29.JPG",
+                    "photoProduct": "upload/PhotoProduct/94c66603-8d59-4dc1-81f9-c5aa17f23d0b-DSC07825.jpeg",
                     "createdAt": "2025-07-26T00:24:47.145129Z"
                 },
                 {
@@ -2926,7 +2926,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "garianie_official"
                 }
             ],
@@ -3160,7 +3160,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "gitaratna modestwear"
                 }
             ],
@@ -3238,7 +3238,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "gochillin.id"
                 }
             ],
@@ -5467,7 +5467,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Mang Udjo Kuliner"
                 },
                 {
@@ -5631,7 +5631,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "NEU MEN"
                 },
                 {
@@ -5908,7 +5908,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Rurik.id"
                 },
                 {
@@ -6182,7 +6182,7 @@ window["PARIS VAN JAVA"] =
                 },
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "safeindustries_"
                 }
             ],
@@ -6330,7 +6330,7 @@ window["PARIS VAN JAVA"] =
                     "subMaterialName": [
                         "Kulit"
                     ],
-                    "photoProduct": "upload/PhotoProduct/5f3dd5ba-ca29-46aa-894a-e0fbb47c847c-SASADU %2817%29.JPG",
+                    "photoProduct": "upload/PhotoProduct/5f3dd5ba-ca29-46aa-894a-e0fbb47c847c-SASADU.JPG",
                     "createdAt": "2025-08-03T03:05:36.866234Z"
                 },
                 {
@@ -6710,7 +6710,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "handmade Bag Tulatali"
                 }
             ],
@@ -6883,7 +6883,7 @@ window["PARIS VAN JAVA"] =
             "businessMarketplaceItem": [
                 {
                     "marketplacePlatform": 5,
-                    "marketplacePlatformName": "TiktokShop",
+                    "marketplacePlatformName": "Tiktokshop",
                     "accountName": "Yanie's cookies"
                 },
                 {

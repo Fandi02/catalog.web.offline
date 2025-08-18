@@ -3952,12 +3952,13 @@ window["PARIS VAN JAVA"] =
             "businessProfileId": "7010174c-44a8-4a16-892d-9627711b25a6",
             "businessName": "Kamisuka",
             "brandName": "Kamisuka",
-            "description": "We are a fashion brand inspired by the cultural uniqueness of indonesian fabrc",
+            "description": "We are a fashion brand inspired by the cultural uniqueness of indonesian fabric",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
-            "logo": "upload/BusinessLogo/69d98314-7ae6-4664-9cf9-c349f03d6ad2-IMG_8458.jpeg",
-            "photoHeader": "upload/PhotoHeader/4f9f4e1e-3bd6-4950-8b49-9e9dbf445959-IMG_7383.jpeg",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/9759f7db-53ab-4a3b-8cbd-102a17662d94-IMG_20250817_162303.jpg",
+            "photoHeader": "upload/PhotoHeader/a93de7f4-4f36-4055-aa10-86fd5f929597-IMG-20250817-WA0151.jpg",
             "address": "Jalan Batunungal Indah VII no 31, Bandung",
             "city": 1,
             "cityName": "BandungCity",
@@ -3971,9 +3972,69 @@ window["PARIS VAN JAVA"] =
             "whatsappNumber": "87823495893",
             "productItems": [
                 {
-                    "productId": "75ec9628-112c-4577-92d2-bb605a853eae",
-                    "productName": "Dedagi Dress | DS153",
-                    "description": "Dress Free Size\r\nLingkar Dada max 152cm\r\nPanjang Dress 118cm\r\nPanjang Lengan dari kerah 60cm\r\nLingkar Lengan bawah 30cm\r\nMaterial : Batik Tulis, Tenun ATBM\r\nWarna : Biru, Abu",
+                    "productId": "cf3c17c8-6118-4ae9-b41a-6342b54d67e8",
+                    "productName": "Bleu Blouse",
+                    "description": "Bleu Blouse wanita tanpa lengan dengan material katun batik tulis pewarna indigo alami, nyaman , elegan dan ekslusif untuk gaya etnik modern sehari-hari",
+                    "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
+                    "rawMaterialName": "Serat Alam",
+                    "subMaterialId": [
+                        "c12a8e2f-490b-4ecd-be76-1be0571e916c"
+                    ],
+                    "subMaterialName": [
+                        "Katun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/bd992636-89b2-42f0-b33f-74d106214a8c-IMG-20250817-WA0123.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319806Z"
+                },
+                {
+                    "productId": "738b7a58-8e1f-4518-8438-c3b79bdf18c7",
+                    "productName": "Dedagi Dress",
+                    "description": "Dedagi dress tunik kombinasi batik pewarna alam dan tenun ATBM hadir untuk memberi kesan anggun sekaligus nyaman saat digunakan.\r\nDress yang memadukan tenun bulu katun yang lembut dengan sentuhan batik tulis berpewarna alami yang ramah lingkungan cocok untuk segala acara.",
+                    "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
+                    "rawMaterialName": "Serat Alam",
+                    "subMaterialId": [
+                        "c12a8e2f-490b-4ecd-be76-1be0571e916c"
+                    ],
+                    "subMaterialName": [
+                        "Katun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/7267a593-0856-40d2-b292-9d1a36ef28ea-IMG-20250817-WA0121.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319807Z"
+                },
+                {
+                    "productId": "838626e9-a7f7-444b-8d5b-73f9efaea932",
+                    "productName": "Bijin Blouse, Saiko Sarong Pants",
+                    "description": "Bijin Blouse kombinasi patch batik dan tenun ATBM, dipadukan dengan celana sarung Saiko dengan bahan katun batik cap pewarna alami. Paduan yang cocok untuk menciptakan tampilan unik, elegan, cocok untuk yang ingin tampil beda namun tetap nyaman",
+                    "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
+                    "rawMaterialName": "Serat Alam",
+                    "subMaterialId": [
+                        "c12a8e2f-490b-4ecd-be76-1be0571e916c"
+                    ],
+                    "subMaterialName": [
+                        "Katun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/bcdf31cd-eab0-4163-a541-41426e902ce2-IMG-20250817-WA0140.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319807Z"
+                },
+                {
+                    "productId": "8926ad19-490c-4f19-891d-55bf3199e112",
+                    "productName": "Delaji Dress, Vee Vest",
+                    "description": "Delaji dress tanpa lengan menggunakan batik tulis pewarna indigo kombinasi tenun ATBM dipadukan dengan Vee Vest berbahan batik tulis warna alami menciptakan tampilan elegan, uniq sekaligus berkelas",
+                    "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
+                    "rawMaterialName": "Serat Alam",
+                    "subMaterialId": [
+                        "c12a8e2f-490b-4ecd-be76-1be0571e916c"
+                    ],
+                    "subMaterialName": [
+                        "Katun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/659a9b29-b3f9-4a3b-9727-5e50e4fca087-IMG-20250817-WA0125.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319807Z"
+                },
+                {
+                    "productId": "b6c4b9fb-dc09-4fb0-8633-22980f429f4b",
+                    "productName": "Bani Blouse, Sumiko Skirt",
+                    "description": "Bani Blouse tanpa lengan yang memadukan patch batik dan tenun ATBM, dipasangkan dengan rok tenun berbahan tenun Maumere yang menunggu akan pewarna alami. Paduan yang menghadirkan harmoni antara modernitas dan kekayaan budaya Nusantara, cocok digunakan untuk acara semi-formal atau moment spesial yang membutuhkan tampilan elegan bernuansa etnik modern",
                     "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
                     "rawMaterialName": "Serat Alam",
                     "subMaterialId": [
@@ -3984,8 +4045,25 @@ window["PARIS VAN JAVA"] =
                         "Tenun",
                         "Katun"
                     ],
-                    "photoProduct": "upload/PhotoProduct/1fd28cce-d7b6-4b04-8087-5fbce7fc49cd-DS156a.jpeg",
-                    "createdAt": "2025-08-16T16:50:08.316406Z"
+                    "photoProduct": "upload/PhotoProduct/709146b2-fb71-44a4-bd46-c1349550df36-IMG-20250817-WA0136.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319807Z"
+                },
+                {
+                    "productId": "c2b0c408-a17e-4eda-ac76-8f06bfa7eb5e",
+                    "productName": "Shibori Vest, Saori Skirt",
+                    "description": "Vest dengan bahan katun menggunakan teknik shibori menghasilkan motif kawung dengan pewarnaan alami, dipadukan dengan sarung tenun kombinasi batik. Perpaduan ini menghadirkan sentuhan yang unik, ramah lingkungan sekaligus nyaman untuk dikenakan disegala kegiatan",
+                    "rawMaterialId": "c2b115c3-58f8-478d-97a7-cad01ada2f31",
+                    "rawMaterialName": "Serat Alam",
+                    "subMaterialId": [
+                        "c12a8e2f-490b-4ecd-be76-1be0571e916c",
+                        "b94d77c2-5a28-47c4-97a6-4ed275cb3dcc"
+                    ],
+                    "subMaterialName": [
+                        "Tenun",
+                        "Katun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/73e37361-15b5-487f-8753-b457016f4f2e-IMG-20250817-WA0138.jpg",
+                    "createdAt": "2025-08-17T11:37:25.319807Z"
                 }
             ],
             "documentItems": [],
@@ -4019,7 +4097,7 @@ window["PARIS VAN JAVA"] =
                     "name": "Inacraft Award kategori the best textile dan best of the best",
                     "awardGiver": "Asephi",
                     "year": "2023-01-01",
-                    "createdAt": "2025-08-16T16:56:53.05739Z"
+                    "createdAt": "2025-08-17T10:17:08.896199Z"
                 }
             ],
             "competitionCertificates": [],
@@ -4343,6 +4421,41 @@ window["PARIS VAN JAVA"] =
             "promotionMeans": 0,
             "subPromotionMeans": [],
             "supermarketPartner": [],
+            "supermarketPartnerName": [],
+            "isAssignToEvent": true
+        },
+        {
+            "businessProfileId": "75439cee-d28d-4555-b41f-7135f16d21b1",
+            "businessName": "Little Rose",
+            "brandName": "Little Rose",
+            "description": "Little Rose",
+            "categoryId": "a0045ccb-141b-4ba4-97d0-8418ead640a5",
+            "categoryName": "Kriya",
+            "subCategoryName": "",
+            "address": "Bandung",
+            "city": 0,
+            "cityName": "Other",
+            "cityOther": "Bandung",
+            "districtName": "",
+            "districtOther": "Bandung",
+            "province": "Jawa Barat",
+            "phoneNumber": "0000000000",
+            "email": "adiktoumannayaka@gmail.com",
+            "whatsappNumber": "0000000000",
+            "productItems": [],
+            "documentItems": [],
+            "userId": "e0c1e7bf-f4d3-44db-8d83-6f09f4b72890",
+            "userName": "adiktoumannayaka@gmail.com",
+            "userCity": 0,
+            "userCityName": "Other",
+            "userDistrictName": "",
+            "lastEducation": 0,
+            "lastEducationName": "Other",
+            "historyPKBs": [],
+            "mallPKB2025": "PARIS VAN JAVA",
+            "businessEntityName": "",
+            "isHaveMarketplace": false,
+            "businessMarketplaceItem": [],
             "supermarketPartnerName": [],
             "isAssignToEvent": true
         },
@@ -5637,52 +5750,6 @@ window["PARIS VAN JAVA"] =
             ],
             "promotionMeans": 0,
             "supermarketPartner": [],
-            "supermarketPartnerName": [],
-            "isAssignToEvent": true
-        },
-        {
-            "businessProfileId": "1189209c-e981-4ad8-bea3-739f87b123d3",
-            "businessName": "queen craftland",
-            "brandName": "queen craftland",
-            "description": "queen craftland",
-            "categoryId": "a0045ccb-141b-4ba4-97d0-8418ead640a5",
-            "categoryName": "Kriya",
-            "subCategoryName": "",
-            "address": "[Silakan Diubah]",
-            "city": 0,
-            "cityName": "Other",
-            "cityOther": "[Silakan Diubah]",
-            "districtName": "",
-            "districtOther": "[Silakan Diubah]",
-            "province": "Jawa Barat",
-            "phoneNumber": "8817875255",
-            "email": "queencraftlandofficial@gmail.com",
-            "whatsappNumber": "8817875255",
-            "productItems": [],
-            "documentItems": [],
-            "userId": "73018c35-7dff-4851-a9c8-ca72380a39fe",
-            "userName": "queencraftlandofficial@gmail.com",
-            "fullName": "dimas",
-            "nik": "",
-            "fileKtp": "",
-            "userAddress": "",
-            "userCity": 0,
-            "userCityName": "Other",
-            "userDistrictName": "",
-            "phoneNumberParticipant": "8817875255",
-            "lastEducation": 0,
-            "lastEducationName": "Other",
-            "lastEducationOther": "",
-            "historyPKBs": [],
-            "mallPKB2025": "PARIS VAN JAVA",
-            "isHaveLegality": false,
-            "legalityItems": [],
-            "businessEntityName": "",
-            "certificateItems": [],
-            "certificateAwards": [],
-            "competitionCertificates": [],
-            "isHaveMarketplace": false,
-            "businessMarketplaceItem": [],
             "supermarketPartnerName": [],
             "isAssignToEvent": true
         },

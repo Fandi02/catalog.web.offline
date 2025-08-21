@@ -24,7 +24,7 @@ window.mallData =
         "name": "Trans Studio Mall",
         "location": "Atrium Lantai 2",
         "address": "Jl. Gatot Subroto No.289, Cibangkong, Kec. Batununggal, Kota Bandung, Jawa Barat 40273",
-        "eventDate": "12 - 21 September 2025"
+        "eventDate": "15 - 21 September 2025"
       }
     },
     {

@@ -241,24 +241,45 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "21f5d470-d2c5-4ab5-867b-d5b3934a4ef5",
             "businessName": "Ananda Collection",
             "brandName": "Ananda Collection",
-            "description": "",
+            "description": "Ananda Collection adalah brand spesialis tenun, batik, dan perlengkapan umrah yang dirancang khusus untuk wanita dewasa yang menghargai keanggunan, kenyamanan, dan nilai tradisi. Koleksi kami menghadirkan pilihan busana etnik modern yang elegan, cocok untuk berbagai momen penting, termasuk perjalanan ibadah. Dengan kualitas bahan terbaik dan desain yang sopan namun stylish, kami siap menemani langkah Anda tampil percaya diri dan berkelas, tanpa meninggalkan akar budaya.",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/33d53811-d151-47f9-8af8-9d8b4d6fb9d1-WhatsApp Image 2025-08-21 at 10.26.05.jpg",
             "address": "Jl. Gagak Barat, Cibeunying 1 No 50 RT 03/RW 14, Kelurahan Sadang Serang, Kecamatan Coblong, Bandung 40133.",
             "city": 1,
             "cityName": "BandungCity",
             "districtId": "1e4f7a9b-2c5d-4e8f-4a7b-2c5d8e1f4a7b",
             "districtName": "Coblong",
+            "province": "Jawa Barat",
             "phoneNumber": "81220663459",
             "instagram": "@aasanandacollection",
-            "email": "aaskasmirah50@gmail.con",
+            "email": "aaskasmirah50@gmail.com",
             "whatsappNumber": "81220663459",
-            "productItems": [],
+            "productItems": [
+                {
+                    "productId": "273e2274-e71f-4cb6-8d73-c574730ff48c",
+                    "productName": "Outer Tenun Etnik",
+                    "description": "Busana batik tenun etnik elegan dengan motif khas, memadukan nuansa biru dan krem. Cocok untuk acara formal maupun semi-formal. Tampil anggun dengan sentuhan budaya lokal.",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "1b88e099-dc3a-483d-a080-46a134abe336",
+                        "07d9b885-7fdf-4fa5-9d98-c8f1315faefa"
+                    ],
+                    "subMaterialName": [
+                        "Batik",
+                        "Tenun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/cbb7e78f-5e91-4ba8-b8e2-de40444d3ce0-WhatsApp Image 2025-08-09 at 10.27.47.jpg",
+                    "createdAt": "2025-08-21T03:26:43.024089Z"
+                }
+            ],
             "documentItems": [],
             "userId": "240689e9-9995-47e5-b66a-99af12c6efab",
-            "userName": "aaskasmirah50@gmail.con",
-            "fullName": "aas kasmirah",
+            "userName": "aaskasmirah50@gmail.com",
+            "fullName": "Aas Kasmirah",
             "nik": "327302470664",
             "fileKtp": "https://drive.google.com/open?id=1g3XJ67-SbhPGLN3JaWsXSSjQTVWMM0Zw",
             "userAddress": "Jl. Gagak Barat, Cibeunying 1 No 50 RT 03/RW 14",
@@ -266,6 +287,8 @@ window["23 PASKAL SHOPPING CENTER"] =
             "userCityName": "Other",
             "userDistrictName": "",
             "phoneNumberParticipant": "81220663459",
+            "phoneNumberAdmin": "81220663459",
+            "gender": 1,
             "age": 50,
             "lastEducation": 4,
             "lastEducationName": "S1",
@@ -1415,6 +1438,46 @@ window["23 PASKAL SHOPPING CENTER"] =
             "isAssignToEvent": true
         },
         {
+            "businessProfileId": "3b851ac7-b2f8-4765-b714-24493bc69c86",
+            "businessName": "Cilok Merapi",
+            "brandName": "Cilok Merapi",
+            "description": "Cilok merapi adalah produk lokal,industri rumah tangga dengan produk utama cilok kuah instan dan seblak instan,jajanan jadul yang dikemas dengan lebih menarik dan kekinian. Cilok Merapi menawarkan berbagai varian cilok dengan kemasan modern untuk menarik minat pembeli. Mereka juga memiliki produk baru yaitu seblak instan.",
+            "categoryId": "ee3a1df1-c948-436a-bf80-935743e5679a",
+            "categoryName": "Makanan & Minuman dalam kemasan",
+            "subCategoryName": "",
+            "logo": "upload/BusinessLogo/2521a9c2-7d39-4b8d-a91b-1cf7d99c3d50-WhatsApp Image 2025-08-21 at 09.15.47.jpg",
+            "photoHeader": "upload/PhotoHeader/d8b7523e-cca1-4cb5-b20a-7952aa565e41-WhatsApp Image 2025-08-21 at 09.18.14.jpg",
+            "address": "Jl. Mekar II RT.02 RW.01 Kel. Pasirlayung Kec. Cibeunying Kidul ",
+            "city": 1,
+            "cityName": "BandungCity",
+            "districtId": "3c5d8e1f-4a7b-4c9d-5e1f-4a7b9c3d5e8f",
+            "districtName": "Cibeunying Kidul",
+            "province": "Jawa Barat",
+            "phoneNumber": "085294565851",
+            "instagram": "@cilokmerapi",
+            "tiktok": "@cilokmerapi",
+            "facebook": "@cilokmerapi",
+            "youtube": "@cilokmerapi",
+            "email": "cilokmerapi@gmail.com",
+            "whatsappNumber": "85294565851",
+            "productItems": [],
+            "documentItems": [],
+            "userId": "38dd19cd-ea6b-4442-a2f6-be5d9a890bf6",
+            "userName": "cilokmerapi@gmail.com",
+            "userCity": 0,
+            "userCityName": "Other",
+            "userDistrictName": "",
+            "lastEducation": 0,
+            "lastEducationName": "Other",
+            "historyPKBs": [],
+            "mallPKB2025": "23 PASKAL SHOPPING CENTER",
+            "businessEntityName": "",
+            "isHaveMarketplace": false,
+            "businessMarketplaceItem": [],
+            "supermarketPartnerName": [],
+            "isAssignToEvent": true
+        },
+        {
             "businessProfileId": "e1d9840d-c1e8-4f56-b111-373a30f9e2f3",
             "businessName": "CV Mones Karya Javalejanum",
             "brandName": "MONES",
@@ -1730,31 +1793,141 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "393e175d-fd2d-4496-9dda-30d03665bbb4",
             "businessName": "Cv. Gammara jaya mondial",
             "brandName": "Cv. Gammara jaya mondial",
-            "description": "",
+            "description": "\"Gammara\" dipilih sebagai interpretasi dari produk yang akan dihasilkan. Berasal dari bahasa Makassar, \"Gammara\" memiliki makna 'bagus', 'baik', atau ungkapan untuk 'sesuatu yang indah'.\r\n\r\n produksi dengan standar kualitas terbaik. Hingga kini, selain penjualan di kancah nasional, Gammara juga dipercaya untuk memproduksi tas yang kemudian diekspor ke beberapa negara—di antaranya Prancis, Belanda, Dubai, dan Jepang.\r\n\r\nGammara berharap agar dapat senantiasa memberikan peningkatan layanan terbaik dan inovasi produk . Terima kasih sudah memilih Gammara untuk menemani aktivitas Anda.",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
-            "address": "Jalan tubagus ismail II no.9",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/325c918c-1d6c-46da-9222-6d1dc7bf9507-Logo Gammara.jpg",
+            "address": "Jalan Tubagus Ismail II No.9 Bandung",
             "city": 1,
             "cityName": "BandungCity",
-            "districtId": "3c5d8e1f-4a7b-4c9d-5e1f-4a7b9c3d5e8f",
-            "districtName": "Cibeunying Kidul",
-            "phoneNumber": "85624474408",
+            "districtId": "1e4f7a9b-2c5d-4e8f-4a7b-2c5d8e1f4a7b",
+            "districtName": "Coblong",
+            "province": "Jawa Barat",
+            "phoneNumber": "08111011504",
             "instagram": "@Gammara_leather",
+            "tiktok": "@gammara_leather",
+            "website": "www.gammara.co.id",
             "email": "adityalugina@gmail.com",
             "whatsappNumber": "85624474408",
-            "productItems": [],
-            "documentItems": [],
+            "productItems": [
+                {
+                    "productId": "7420284d-950f-4ad4-bf2f-3061b190407f",
+                    "productName": "Sanrego Backpack",
+                    "description": "Ransel Sanrego memiliki kompartemen clutch yang dapat dilepas-pasang, fungsi clutch memudahkan Anda untuk memisahkan barang yang selalu dibutuhkan. Sekadar keluar makan siang, Anda dapat melepas clutch dari dalam tas dan ready to go.\r\n \r\n\r\n\t- Berbahan dasar kulit sapi\r\n\t- 2 kompartemen utama dengan penutup ritsleting\r\n\t- Memiliki 1 saku kargo dengan ritsleting di depan\r\n\t- 1 tali pegangan tangan dan 2 tali pundak yang panjangnya dapat disesuaikan\r\n\t- Interior tas menggunakan kain bertekstur suede\r\n\t- Terdapat 3 saku selip dan 1 slot kartu pada kompartemen depan\r\n\t- Dilengkapi sekat untuk laptop dan 2 saku selip pada kompartemen belakang\r\n\t- 1 clutch magnetis serbaguna yang dapat dilepas-pasang\r\n\t- Ukuran: 30 x 41 x 11 cm\r\n\t- Laptop max: 15 inch\r\n\r\n",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/ef687c74-d052-45db-947b-32c794376fff-Sanrego Backpack.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111075Z"
+                },
+                {
+                    "productId": "1fe9ff10-8eb2-424b-bf28-8c50a75387c7",
+                    "productName": "Allo Wallet Batik Embroidery",
+                    "description": "Allo Wallet Batik Embroidery, dompet dengan material kulit sapi asli dengan sentuhan motif Batik asli Nusantara.  Kompartemen utama yang dilengkapi dengan material RFID Blocker, menambah keamanan data kartu yang Anda miliki, terutama saat bepergian ke luar negeri.\r\n \r\n\r\n- Berbahan dasar kulit sapi asli\r\n- 1 slot kompartemen utama (RFID Protection)\r\n- 2 slot kartu di bagian dalam-depan\r\n- 2 slot kartu di bagian belakang\r\n- Dapat memuat hingga 20 kartu dan uang tunai\r\n\r\n\r\nTinggi: 8.5 Cm\r\nPanjang: 10.5 Cm\r\nLebar/Tebal: 1.5 Cm",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/b81c6a0c-1c78-4bfc-850d-8e40c646716c-WhatsApp Image 2024-10-01 at 12.14.50.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111076Z"
+                },
+                {
+                    "productId": "47ea32bd-2cdc-4c4d-b156-512d8d963f77",
+                    "productName": "Letta Wide Bag",
+                    "description": "*Berbahan dasar kulit sapi\r\n*Penutup menggunakan ritsleting\r\n*Terdapat tali pundak \r\n*Terdapat tali panjang yang dapat disesuaikan \r\n*interior tas menggunakan kain bertekstur suede\r\n*Terdapat 2 saku selip dan 1 saku ritsleting\r\n*Ukuran: 35 x 28 x 9.5 Cm",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/06ce5cf8-0caf-4d13-a16c-ef8feddb24cf-IMG_0132-Enhanced-NR.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111076Z"
+                },
+                {
+                    "productId": "e1d0e965-6e10-40d6-8bb0-68377f5f738c",
+                    "productName": "Palu Card Holder Batik Embroidery",
+                    "description": "Palu Cardholder Embroidery,  dompet kartu dengan material kulit sapi asli dengan sentuhan motif Batik asli Nusantara.  \r\nTerdapat 6 slot kartu yang cukup untuk membawa kartu Anda agar tidak berantakan, sehingga terlihat lebih rapi didalam tas maupun dibawa kemana saja setiap saat.\r\n\r\n\r\nTinggi: 8 Cm\r\nPanjang: 10 Cm",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/abd866cf-76e5-47b3-a27b-812ce1a883c8-Untitled-1Artboard-3.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111076Z"
+                },
+                {
+                    "productId": "e2782fc7-3147-4253-a41a-205a3b0ad575",
+                    "productName": "Karama Pouch Batik Embroidery ",
+                    "description": "Karama  Pouch Batik Embroidery, pouch dengan material kulit sapi asli dengan sentuhan motif Batik asli Nusantara. Memiliki design yang slim sehingga praktis dibawa kemana saja.\r\n\r\n- Berbahan dasar kulit sapi asli\r\n- Penutup menggunakan ritsleting\r\n- Terdapat tali pergelangan yang dapat dilepas-pasang\r\n- Bagian interior berbalut kain dengan tekstur suede\r\n- Ukuran : 23,5 x 19 cm",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/0589f901-38cd-4efd-ba6c-6ddedbdbd1e3-Karama Pouch 3.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111076Z"
+                },
+                {
+                    "productId": "f09524ad-beca-4d72-81e2-3980f85e8ca9",
+                    "productName": "Langko Pouch",
+                    "description": "Material: Leather\r\nClosure: 2 Zippers\r\nHandle: 1 Wristlet\r\nInterior: 2 Separated Compartments\r\nInterior Material: Suede\r\nExterior: 1 Front Zip Pocket\r\nMeasurement: 22.5 x 14 x 6.5 cm",
+                    "rawMaterialId": "c0eaaf75-aeba-4fc1-b9d1-9408258c1b89",
+                    "rawMaterialName": "Material Alam lainnya",
+                    "subMaterialId": [
+                        "9eaaf0e0-a742-4972-b22a-6861608af1f5"
+                    ],
+                    "subMaterialName": [
+                        "Kulit"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/420ebcb7-1cbe-4124-a5e7-53f26c1f929c-1.4.jpg",
+                    "createdAt": "2025-08-21T03:48:29.111076Z"
+                }
+            ],
+            "documentItems": [
+                {
+                    "documentBusinessId": "17443aaa-b464-4704-b48d-ef30ec6d0931",
+                    "documentFile": "upload/DocumentFile/90f84b8a-abe9-4dd5-ad65-335ad16e8bf2-Company Profile Gammara Leather.pdf",
+                    "documentFileName": "Company Profile Gammara Leather.pdf"
+                },
+                {
+                    "documentBusinessId": "f57a40e0-2763-419d-97db-882a04f96462",
+                    "documentFile": "upload/DocumentFile/0e575883-0989-447a-b4b4-96a4e5cbb1ff-Company Profile Gammara Leather.pdf",
+                    "documentFileName": "Company Profile Gammara Leather.pdf"
+                }
+            ],
+            "linkVideoBusiness": "https://www.youtube.com/watch?v=szqgxE9IvkQ",
             "userId": "7c957a10-8262-473b-bb8d-9898f79d5a91",
             "userName": "adityalugina@gmail.com",
-            "fullName": "gina adityalugina",
+            "fullName": "Gina gdityalugina",
             "nik": "3275044603880009",
-            "fileKtp": "https://drive.google.com/open?id=141SVYXwl1XMU69CLiuA-MhUAyMrowEtC",
+            "fileKtp": "upload/FileKtp/93fcc4a3-8044-4636-96f1-76ff4a54ecf8-KTP Ibu Gina.jpg",
             "userAddress": "Bandung",
             "userCity": 0,
             "userCityName": "Other",
             "userDistrictName": "",
             "phoneNumberParticipant": "85624474408",
+            "phoneNumberAdmin": "628111011504",
+            "gender": 1,
             "age": 35,
             "lastEducation": 4,
             "lastEducationName": "S1",
@@ -1763,37 +1936,62 @@ window["23 PASKAL SHOPPING CENTER"] =
             "isHaveLegality": true,
             "legalityItems": [
                 {
+                    "legalityNumber": " 0666.6599.8242.3000",
+                    "fileLegality": "upload/FileLegality/ae195087-d34b-4a3c-bb58-3b0b3e6f79e6-NPWP CV GAMMARA JAYA MONDIAL - 16 digit.jpg",
+                    "businessLegality": 2
+                },
+                {
                     "legalityNumber": "8120219211421",
-                    "fileLegality": "https://drive.google.com/open?id=12RryxyY5yi1xRUfP8JJ_7w0-fgsR_wuK",
-                    "businessLegality": 1
+                    "fileLegality": "upload/FileLegality/ced2cce0-0572-4a09-9601-28873b7b4831-NIB CV Gammara Jaya Mondial_page-0001.jpg",
+                    "businessLegality": 0
                 }
             ],
-            "businessEntityName": "",
-            "businessDuration": 50,
-            "lastYearRevenue": 12,
-            "employeeCount": 7,
-            "certificateItems": [],
+            "businessEntity": 3,
+            "businessEntityName": "PersekutuanKomanditer",
+            "businessDuration": 15,
+            "lastYearRevenue": 1200000000,
+            "employeeCount": 10,
+            "certificateItems": [
+                {
+                    "certificateType": 8,
+                    "certificateNumber": "3052/SJIN.8/TKDN/2022",
+                    "fileCertificate": "upload/FileCertificate/a76c2793-94f8-4a7a-97f1-06b1cdfdae2a-TKDN GAMMARA LEATHER.jpg"
+                },
+                {
+                    "certificateType": 3,
+                    "certificateNumber": "IDM000572949",
+                    "fileCertificate": "upload/FileCertificate/d3da7c69-6bad-4307-902f-8092dacf4adf-Sertifikat Merek Gammara.jpg"
+                }
+            ],
             "certificateAwards": [],
             "competitionCertificates": [],
             "isHaveMarketplace": true,
             "businessMarketplaceItem": [
                 {
-                    "marketplacePlatform": 3,
-                    "marketplacePlatformName": "Shopee",
-                    "accountName": "Gammara_leather"
-                },
-                {
                     "marketplacePlatform": 2,
                     "marketplacePlatformName": "Tokopedia",
-                    "accountName": "Gammara_leather"
+                    "accountName": "Gammara Leather Official Shop"
+                },
+                {
+                    "marketplacePlatform": 5,
+                    "marketplacePlatformName": "Tiktokshop",
+                    "accountName": "Gammara Leather Official Shop"
+                },
+                {
+                    "marketplacePlatform": 3,
+                    "marketplacePlatformName": "Shopee",
+                    "accountName": "Gammara Leather Official Shop"
                 }
             ],
-            "promotionMeans": 1,
-            "subPromotionMeans": [
-                "Pusat Perbelanjaan"
+            "promotionMeans": 0,
+            "promotionMeansString": [
+                "Gerai Toko Sendiri"
             ],
-            "supermarketPartner": [],
+            "supermarketPartner": [
+                0
+            ],
             "supermarketPartnerName": [],
+            "supermarketPartnerOther": "Sarinah Thamrin Jakarta, Galeri Patrakomala di Braga, Skytree Cafe Riau",
             "isAssignToEvent": true
         },
         {
@@ -1903,20 +2101,69 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "161a6f56-6e6b-4f16-a302-6a2915eca35a",
             "businessName": "Daimata",
             "brandName": "Daimata",
-            "description": "",
+            "description": "Sambal kemasan tanpa bahan pengawet dengan citarasa khas leluhur, bisa dijadikan bumbu dasar masakan indonesia",
             "categoryId": "ee3a1df1-c948-436a-bf80-935743e5679a",
             "categoryName": "Makanan & Minuman dalam kemasan",
             "subCategoryName": "",
+            "logo": "upload/BusinessLogo/088dc973-f9ca-4a7d-904b-8825d2b55695-IMG-20250711-WA0040.jpg",
+            "photoHeader": "upload/PhotoHeader/6722928a-4d6e-4a51-b621-38d497998288-IMG-20250213-WA0074.jpg",
             "address": "Pinus Regency Blok Andes 56",
             "city": 1,
             "cityName": "BandungCity",
             "districtId": "3b5c8d1e-4f7a-4b9c-5d1e-4f7a9b3c5d8e",
             "districtName": "Cinambo",
+            "province": "Jawa Barat",
             "phoneNumber": "818223868",
             "instagram": "@daimata.sambal",
             "email": "kerabatwirausahanusantara@gmail.com",
             "whatsappNumber": "818223868",
-            "productItems": [],
+            "productItems": [
+                {
+                    "productId": "25315b8e-a9f6-448b-a34c-4aae2a110217",
+                    "productName": "Sambal Geprek",
+                    "description": "Sambal kemasan tanpa bahan pengawet berbahan dasar cabe keriting merah, bisa dijadikan bumbu dasar masakan indonesia",
+                    "rawMaterialId": "045668a6-7065-4bd1-9260-47d54082d0ed",
+                    "rawMaterialName": "Makanan dan Minuman",
+                    "subMaterialId": [
+                        "d7a310a8-dbd5-4225-b170-12623f445fbd"
+                    ],
+                    "subMaterialName": [
+                        "Makanan Olahan"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/5b13a74b-d01d-438c-b0b8-978aa6371c49-IMG-20250704-WA0005.jpg",
+                    "createdAt": "2025-08-20T15:05:40.780511Z"
+                },
+                {
+                    "productId": "28e093d2-9c2e-4b9e-b113-c4923a69919c",
+                    "productName": "Sambal Goang",
+                    "description": "Sambal kemasan tanpa bahan pengawet berbahan dasar cabe rawit hijau, bisa dijadikan bumbu dasar masakan indonesia",
+                    "rawMaterialId": "045668a6-7065-4bd1-9260-47d54082d0ed",
+                    "rawMaterialName": "Makanan dan Minuman",
+                    "subMaterialId": [
+                        "d7a310a8-dbd5-4225-b170-12623f445fbd"
+                    ],
+                    "subMaterialName": [
+                        "Makanan Olahan"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/39201ab0-42de-4473-a495-ed569eb58c71-IMG-20250213-WA0075.jpg",
+                    "createdAt": "2025-08-20T15:05:40.780511Z"
+                },
+                {
+                    "productId": "8146d8d6-d099-4b8b-8378-ef90b63a96d5",
+                    "productName": "Sambal Ngoprot",
+                    "description": "Sambal kemasan tanpa bahan pengawet berbahan dasar cabe rawit merah, bisa dijadikan bumbu dasar masakan indonesia",
+                    "rawMaterialId": "045668a6-7065-4bd1-9260-47d54082d0ed",
+                    "rawMaterialName": "Makanan dan Minuman",
+                    "subMaterialId": [
+                        "d7a310a8-dbd5-4225-b170-12623f445fbd"
+                    ],
+                    "subMaterialName": [
+                        "Makanan Olahan"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/b8cad771-d3bb-4f63-b885-86bfa40cb10e-IMG-20250213-WA0074.jpg",
+                    "createdAt": "2025-08-20T15:05:40.780511Z"
+                }
+            ],
             "documentItems": [],
             "userId": "2233fd8a-228f-4d28-a224-37212c2fbbb5",
             "userName": "kerabatwirausahanusantara@gmail.com",
@@ -2227,30 +2474,114 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "7bb46dd1-61b7-4239-afb3-9e00e50ce6e0",
             "businessName": "Fa Bee",
             "brandName": "Fa Bee",
-            "description": "",
+            "description": "Fa Bee adalah brand fashion muslim yg berfokus pada produksi dan penjualan mukena dengan design yg elegant,nyaman dan berkualitas tinggi. Dibangun dengan semangat unk menghadirkan mukena yang tidak hanya fungsional tapi tetap fashionabel namun tidak menghilangkan nilai-nilai islami.\r\n\r\nKami menyediakan berbagai macam mukena, seperti mukena daily,mukena premium unk kebutuhan mahar atau hari raya juga mukena travel yang menjadi ikon produk kami.",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/b03d416a-c61a-442d-bd7e-65abe8080d23-20231109_100719_0000.jpg",
+            "photoHeader": "upload/PhotoHeader/789af5d6-3c4d-46bf-8988-6c7b20504bec-20231109_100719_0000.jpg",
             "address": "Jl Palem Putri No 11 Komp Palem Permai Bandung",
             "city": 1,
             "cityName": "BandungCity",
-            "districtName": "",
+            "districtId": "1a4b7c9d-2e5f-4a8b-4c7d-9e2f5a8b1c4d",
+            "districtName": "Buah Batu",
+            "province": "Jawa Barat",
             "phoneNumber": "81573219757",
             "instagram": "@mukenafabee",
+            "tiktok": "@mukenafabee",
             "email": "fabeeindonesia11@gmail.com",
             "whatsappNumber": "81573219757",
-            "productItems": [],
+            "productItems": [
+                {
+                    "productId": "0d006acc-119f-4f28-82d9-dc0afbcfcc29",
+                    "productName": "Mukena Silk Shofia Series",
+                    "description": "Bahan : Armany silk lembut dan dingin\r\nUkuran : Dewasa detail atasan lasercut\r\nBerat : 300gr\r\nWarna : Pink,mocha,purple\r\n",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/45e89137-915e-4818-80ce-85de72caf758-EVO07414-1.jpg",
+                    "createdAt": "2025-08-21T00:45:36.869147Z"
+                },
+                {
+                    "productId": "43be0b81-db15-4306-961b-7c5a5a7ffb8c",
+                    "productName": "Mukena Travel Marwah Seriea",
+                    "description": "Bahan : Parasut Nylon\r\nUkuran : Dewasa Allsize ada resleting di bagian bawah dagu\r\nBerat : 200gr\r\nMotif : Bunga dengan warna soft\r\n",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/3e95d3a5-ee5a-49fb-be64-a7cfaf59068d-DSCF7490.JPG",
+                    "createdAt": "2025-08-21T00:45:36.869147Z"
+                },
+                {
+                    "productId": "0b8e7566-41bb-47da-bb04-143f56a6d4c6",
+                    "productName": "Mukena Travel Fatimah Series",
+                    "description": "Bahan : Parasut Premium Polos,adem, ringan\r\nUkuran : Dewasa Allsize ada resleting di bagian bawah dagu\r\nBerat : 200gr\r\nWarna : Hitam, rose,cream,navy,moca,burgundy",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/50b11ade-b75b-421d-ac37-f796df16432e-Fatimah Series_Gallery.jpg",
+                    "createdAt": "2025-08-21T00:45:36.869148Z"
+                },
+                {
+                    "productId": "523e540c-0274-473d-804e-c53bc57fb0e8",
+                    "productName": "Mukena Terusan Aisyah Series",
+                    "description": "Bahan : Parasut Premium\r\nModel : Terusan tidak ada penutup kepala, bagian tangan ada pengait jari\r\nBerat : 180gr",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/24c7dde9-b4f1-4154-9bb4-bacb4bb2771a-1000820209.jpg",
+                    "createdAt": "2025-08-21T00:45:36.869148Z"
+                },
+                {
+                    "productId": "884400d6-0f04-48aa-b3b7-72661c6b1d52",
+                    "productName": "Mukena Katun Rayon",
+                    "description": "Bahan : Katun Rayon\r\nModel : Karet Bagian muka dan penutup dagu\r\nBerat : 300 gr",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/a1184b20-b699-4aaa-8bfd-6d206b25465c-FA BEE %2831 of 78%29.JPG",
+                    "createdAt": "2025-08-21T00:45:36.869148Z"
+                }
+            ],
             "documentItems": [],
             "userId": "c3cd4998-0314-43a3-ad02-0358cf5aba2c",
             "userName": "fabeeindonesia11@gmail.com",
             "fullName": "fabiana shinta",
             "nik": "2010210020967",
-            "fileKtp": "https://drive.google.com/open?id=1DM4OL0pxsrKCKT9HZLXwZpLj9kUnevxi",
+            "fileKtp": "upload/FileKtp/f5cc8b77-10c3-4ece-94d1-1ff1a784e265-KTP.jpg",
             "userAddress": "Jl Palem Putri No 11 Komp Palem Permai Bandung",
             "userCity": 0,
             "userCityName": "Other",
             "userDistrictName": "",
             "phoneNumberParticipant": "81573219757",
+            "phoneNumberAdmin": "82119033386",
+            "gender": 1,
             "age": 45,
             "lastEducation": 0,
             "lastEducationName": "Other",
@@ -2265,10 +2596,11 @@ window["23 PASKAL SHOPPING CENTER"] =
                     "businessLegality": 1
                 }
             ],
-            "businessEntityName": "",
-            "businessDuration": 2,
+            "businessEntity": 1,
+            "businessEntityName": "Perseorangan",
+            "businessDuration": 4,
             "lastYearRevenue": 285760000,
-            "employeeCount": 5,
+            "employeeCount": 2,
             "certificateItems": [],
             "certificateAwards": [],
             "competitionCertificates": [],
@@ -2278,11 +2610,19 @@ window["23 PASKAL SHOPPING CENTER"] =
                     "marketplacePlatform": 5,
                     "marketplacePlatformName": "Tiktokshop",
                     "accountName": "mukenafabee"
+                },
+                {
+                    "marketplacePlatform": 3,
+                    "marketplacePlatformName": "Shopee",
+                    "accountName": "shopee.co.id/fabee.indonesia"
                 }
             ],
-            "promotionMeans": 1,
+            "promotionMeans": 0,
+            "promotionMeansString": [
+                "Penjualan Konsinyasi (titip jual)"
+            ],
             "subPromotionMeans": [
-                "GaleriDekranasdaKotaBandung"
+                "Toko Lina Kartika BXC 2 ,Toko Lina Kartika TSM Cibubur, Hijupstore Surabaya"
             ],
             "supermarketPartner": [
                 0
@@ -3951,32 +4291,70 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "d3ee372a-b56f-43f1-9f68-c821dce26d6a",
             "businessName": "MALIQA",
             "brandName": "MALIQA",
-            "description": "",
+            "description": "Maliqa Sebagai Brand Fashion",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/b034d7d8-fb25-4114-96ef-9683c43005ca-IMG_1445.jpg",
+            "photoHeader": "upload/PhotoHeader/cf551be2-25a5-43af-b1a9-6a0ecb8938f0-IMG_3975.jpg",
             "address": "Jln Sriwijaya no 4 Bandung",
             "city": 1,
             "cityName": "BandungCity",
             "districtId": "5d8e1f4a-7b9c-4d2e-8f1a-4b7c9d2e5f8b",
             "districtName": "Lengkong",
-            "phoneNumber": "8131207714",
+            "province": "Jawa Barat",
+            "phoneNumber": "081312077714",
             "instagram": "@Maliqaofficial.id",
+            "website": "gallerymaliqa.com",
             "email": "lauravirna.vl@gmail.com",
-            "whatsappNumber": "8131207714",
-            "productItems": [],
+            "whatsappNumber": "81312077714",
+            "productItems": [
+                {
+                    "productId": "13dc0aab-88d2-4ad8-a018-76279887f9d4",
+                    "productName": "Pashmina Viscose",
+                    "description": "Pashmina yang kekinian dengan simple fungsional berbahan ringan dan dingin",
+                    "rawMaterialId": "2ff12ecb-ef02-4b53-ab43-49fe725e1b14",
+                    "rawMaterialName": "Material Olahan Lainnya",
+                    "subMaterialId": [
+                        "be9d0e33-f692-4fc2-ab42-af692127a265"
+                    ],
+                    "subMaterialName": [
+                        "Material Olahan Lainnya"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/a542fa80-4c04-488a-818f-a76d9986b8ab-Khadijah Shawl.zip - 22.jpg",
+                    "createdAt": "2025-08-20T14:43:07.634608Z"
+                },
+                {
+                    "productId": "50bc5b27-1f57-47c2-b251-8320424962cd",
+                    "productName": "Ameena prayer set",
+                    "description": "Mukena dengan design yang exclusive berbahan premium dengan material printing berciri khas logo maliqa halus disetiap bahannya dengan packaging hardbox dan pouch travel cantik",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "8c12f801-53e5-46f7-a77c-06a6a41b78d0"
+                    ],
+                    "subMaterialName": [
+                        "Digital Printing (Sublim)"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/fd624d45-c5d6-4d72-9351-f126e25c2c93-IMG_0327.jpg",
+                    "createdAt": "2025-08-20T14:43:07.634608Z"
+                }
+            ],
             "documentItems": [],
             "userId": "8afac094-7a59-45fb-aea1-6003e0c68b9f",
             "userName": "lauravirna.vl@gmail.com",
             "fullName": "virna laura",
             "nik": "3273114206750002",
-            "fileKtp": "https://drive.google.com/open?id=1sYaPTHaji_07yz7A2bJ5Z9niwjU2xlge",
+            "fileKtp": "upload/FileKtp/35da1cb3-4d6f-4f41-83f8-45081062c450-f956f568-8785-439b-84b8-59074ac04768.jpg",
             "userAddress": "Jalan suryalaya timur IV no 22",
             "userCity": 0,
             "userCityName": "Other",
             "userDistrictName": "",
-            "phoneNumberParticipant": "8131207714",
-            "age": 45,
+            "phoneNumberParticipant": "81312077714",
+            "phoneNumberAdmin": "89519266588",
+            "gender": 1,
+            "age": 50,
             "lastEducation": 4,
             "lastEducationName": "S1",
             "historyPKBs": [],
@@ -3984,29 +4362,39 @@ window["23 PASKAL SHOPPING CENTER"] =
             "isHaveLegality": true,
             "legalityItems": [
                 {
+                    "legalityNumber": "1303220003132",
+                    "fileLegality": "upload/FileLegality/18e3baee-43b6-43d5-b274-4b0a89f6b26f-IMG_6759.jpg",
+                    "businessLegality": 0
+                },
+                {
                     "legalityNumber": "13032200031320002",
                     "fileLegality": "https://drive.google.com/open?id=16IX1tPksekCv6jbGVcqi6TWBqi8Qexja",
                     "businessLegality": 1
                 }
             ],
-            "businessEntityName": "",
+            "businessEntity": 1,
+            "businessEntityName": "Perseorangan",
             "businessDuration": 8,
             "lastYearRevenue": 150000000,
             "employeeCount": 7,
-            "certificateItems": [],
+            "certificateItems": [
+                {
+                    "certificateType": 3
+                }
+            ],
             "certificateAwards": [],
             "competitionCertificates": [],
             "isHaveMarketplace": true,
             "businessMarketplaceItem": [
                 {
-                    "marketplacePlatform": 5,
-                    "marketplacePlatformName": "Tiktokshop",
-                    "accountName": "Maliqaofficial.id"
+                    "marketplacePlatform": 3,
+                    "marketplacePlatformName": "Shopee",
+                    "accountName": "Maliqaofficialstore"
                 }
             ],
-            "promotionMeans": 1,
-            "subPromotionMeans": [
-                "Salapak"
+            "promotionMeans": 0,
+            "promotionMeansString": [
+                "Gerai Toko Sendiri"
             ],
             "supermarketPartner": [],
             "supermarketPartnerName": [],
@@ -4670,34 +5058,73 @@ window["23 PASKAL SHOPPING CENTER"] =
             "businessProfileId": "120eeaa1-ff05-4a46-bffd-927f19dd9137",
             "businessName": "ORIZELIQ, ZELIA, ZLY",
             "brandName": "ORIZELIQ, ZELIA, ZLY",
-            "description": "",
+            "description": "ORIZELIQ, ZELIA, ZLY",
             "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
             "categoryName": "Fashion",
-            "subCategoryName": "",
-            "address": "",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "logo": "upload/BusinessLogo/b1c1bb0a-f4ee-406b-95ac-c1726a32230f-Logo ZLY.jpg",
+            "photoHeader": "upload/PhotoHeader/3742ed73-7f6f-43db-98a4-82f1166141f2-Header.jpg",
+            "address": "Bandung",
             "city": 0,
             "cityName": "Other",
-            "cityOther": "",
+            "cityOther": "Bandung",
             "districtName": "",
+            "districtOther": "Bandung",
+            "province": "Jawa Barat",
             "phoneNumber": "8122036676",
             "instagram": "@orizeliq",
-            "email": "temp23@pasarkreatifbandung.com",
+            "email": "zlyindonesia@gmail.com",
             "whatsappNumber": "8122036676",
-            "productItems": [],
+            "productItems": [
+                {
+                    "productId": "3a4852ed-a4a5-45db-b4ae-3c6987a8bde2",
+                    "productName": "Elsa Dress",
+                    "description": "ZLY Young Elsa Dress adalah gamis bermotif bunga kecil dan pita yang memancarkan kesan manis dan anggun. Didesain dengan kerah rebah yang unik, dipadukan dengan lengan balon beraksen renda di ujungnya untuk sentuhan vintage yang elegan.",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "798f0918-1615-48e1-bfb7-63eb265ea503"
+                    ],
+                    "subMaterialName": [
+                        "Bordir"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/32171ef9-465e-4427-b332-7e1790d484d2-zly young Elsa 1.jpg",
+                    "createdAt": "2025-08-21T02:14:15.348404Z"
+                },
+                {
+                    "productId": "ec0b42db-d116-4369-be89-52ef163b120f",
+                    "productName": "Elora Dress",
+                    "description": "Elora Dress adalah dress bermotif bunga dan pita dengan nuansa putih lembut yang memberi kesan manis dan anggun. Didesain dengan kerah pita berwarna mustard yang mempercantik tampilan, dress ini juga memiliki potongan lengan balon dengan detail renda di ujungnya untuk sentuhan feminin.\r\n\r\nDress ini dilengkapi resleting di bagian belakang untuk memudahkan pemakaian serta pocket di sisi kanan yang praktis untuk menyimpan barang kecil seperti ponsel atau kunci. Bahannya ringan dan nyaman, cocok digunakan untuk acara semi-formal hingga santai seperti arisan, pengajian, atau garden party.",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "798f0918-1615-48e1-bfb7-63eb265ea503"
+                    ],
+                    "subMaterialName": [
+                        "Bordir"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/667238df-d572-4070-b412-f3b77cfaa5f3-zly young Elora 1.jpg",
+                    "createdAt": "2025-08-21T02:14:15.348404Z"
+                }
+            ],
             "documentItems": [],
             "userId": "59321f79-e827-4901-9511-e7c3b7dc4cce",
-            "userName": "temp23@pasarkreatifbandung.com",
+            "userName": "zlyindonesia@gmail.com",
             "fullName": "R Dewi Pertiwi Zulkarnain",
-            "nik": "",
-            "fileKtp": "",
-            "userAddress": "",
+            "nik": "3273184412730002",
+            "fileKtp": "upload/FileKtp/99f2aa5e-21e2-4149-a2a6-6cbbf3f69d0c-KTP.jpg",
+            "userAddress": "Komp. Citra Green Garden Kav. 27, RT/RW 002/005, Neglasari, Cibeunying Kaler",
             "userCity": 0,
             "userCityName": "Other",
             "userDistrictName": "",
             "phoneNumberParticipant": "8122036676",
+            "phoneNumberAdmin": "081221955505",
+            "gender": 1,
+            "age": 52,
             "lastEducation": 0,
             "lastEducationName": "Other",
-            "lastEducationOther": "",
+            "lastEducationOther": "S3",
             "historyPKBs": [],
             "mallPKB2025": "23 PASKAL SHOPPING CENTER",
             "isHaveLegality": false,
@@ -4708,6 +5135,8 @@ window["23 PASKAL SHOPPING CENTER"] =
             "competitionCertificates": [],
             "isHaveMarketplace": false,
             "businessMarketplaceItem": [],
+            "promotionMeans": 0,
+            "supermarketPartner": [],
             "supermarketPartnerName": [],
             "isAssignToEvent": true
         },
@@ -5473,6 +5902,42 @@ window["23 PASKAL SHOPPING CENTER"] =
             "isAssignToEvent": true
         },
         {
+            "businessProfileId": "b771aa5e-6b8b-4388-812f-38937d030961",
+            "businessName": "RUSS & Co",
+            "brandName": "RUSS & Co",
+            "description": "RUSS & Co",
+            "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
+            "categoryName": "Fashion",
+            "subCategoryId": "c7f52ac7-2e1a-4986-b83d-76a361b39f9a",
+            "subCategoryName": "Pakaian Jadi",
+            "address": "Bandung",
+            "city": 0,
+            "cityName": "Other",
+            "cityOther": "Bandung",
+            "districtName": "",
+            "districtOther": "Bandung",
+            "province": "Jawa Barat",
+            "phoneNumber": "0000000000",
+            "email": "temp39@pasarkreatifbandung.com",
+            "whatsappNumber": "0000000000",
+            "productItems": [],
+            "documentItems": [],
+            "userId": "f8083819-dc6b-4e6e-87bc-264f74c3c1f3",
+            "userName": "temp39@pasarkreatifbandung.com",
+            "userCity": 0,
+            "userCityName": "Other",
+            "userDistrictName": "",
+            "lastEducation": 0,
+            "lastEducationName": "Other",
+            "historyPKBs": [],
+            "mallPKB2025": "23 PASKAL SHOPPING CENTER",
+            "businessEntityName": "",
+            "isHaveMarketplace": false,
+            "businessMarketplaceItem": [],
+            "supermarketPartnerName": [],
+            "isAssignToEvent": true
+        },
+        {
             "businessProfileId": "146ba6c1-5f8c-4cbc-8859-694eb9b0307f",
             "businessName": "Sendang Berkah",
             "brandName": "CUANKI INSTAN SR JAYA",
@@ -5614,69 +6079,85 @@ window["23 PASKAL SHOPPING CENTER"] =
         {
             "businessProfileId": "f1dd781c-0cc9-450e-b5af-d796c9a9ec76",
             "businessName": "Sofia Handycraft",
-            "categoryName": "",
+            "brandName": "Sofia Handycraft",
+            "description": "Sofia Handycraft",
+            "categoryId": "a0045ccb-141b-4ba4-97d0-8418ead640a5",
+            "categoryName": "Kriya",
             "subCategoryName": "",
-            "cityName": "",
-            "districtName": "",
-            "email": "temp42@pasarkreatifbandung.com",
-            "productItems": [],
-            "documentItems": [],
+            "logo": "upload/BusinessLogo/f4b917b6-d2d6-48a9-83c9-d635842dbb6c-Logo %28Berwarna%29.jpg",
+            "photoHeader": "upload/PhotoHeader/63cd67f5-0665-42e9-8e36-26af998d7ee8-Logo Presentasi.jpg",
+            "address": "Komp. Bumi Asri Blok A.8, RT/RW 002/006. Kel. Cipadung Kulon, Kec. Panyileukan, Kota Bandung. Jawa Barat. 40614.",
+            "city": 1,
+            "cityName": "BandungCity",
+            "districtId": "2f5a8b1c-4d7e-4f9a-5b1c-4d7e9f2a5b8c",
+            "districtName": "Panyileukan",
+            "province": "Jawa Barat",
+            "phoneNumber": "081322743721",
+            "instagram": "@sofia_handycraft",
+            "tiktok": "@sofia_handycraft",
+            "email": "enyas.sofia@gmail.com",
+            "whatsappNumber": "81322743721",
+            "productItems": [
+                {
+                    "productId": "805b891b-67dd-4375-b8b3-b337a982b743",
+                    "productName": "Kalung Tenun Ikat Majalaya",
+                    "description": "Sebuah produk kalung yang dibuat secara handmade, dengan material Tenun Ikat Majalaya khas Jawa Barat yang di padukan dengan batu Onix dan metal premium.",
+                    "rawMaterialId": "99dc4225-dba6-4da9-911b-ff9488a07059",
+                    "rawMaterialName": "Tekstil Lembaran Kain",
+                    "subMaterialId": [
+                        "07d9b885-7fdf-4fa5-9d98-c8f1315faefa"
+                    ],
+                    "subMaterialName": [
+                        "Tenun"
+                    ],
+                    "photoProduct": "upload/PhotoProduct/958b6d7e-f750-4b43-97c1-d45f1f87257a-Kalung Tenun Ikat Majalaya.jpg",
+                    "createdAt": "2025-08-21T05:25:40.273814Z"
+                }
+            ],
+            "documentItems": [
+                {
+                    "documentBusinessId": "f591b6f4-a4dd-4a25-8596-83398ea22781",
+                    "documentFile": "upload/DocumentFile/391acb10-9e2a-4375-8290-de71749320a4-%5BPitch Deck%5D - Sofia Handycraft.pdf",
+                    "documentFileName": "[Pitch Deck] - Sofia Handycraft.pdf"
+                }
+            ],
             "userId": "6cbad76e-dbd1-41de-afab-bd4242ba1686",
-            "userName": "temp42@pasarkreatifbandung.com",
+            "userName": "enyas.sofia@gmail.com",
+            "fullName": "Enyas Sofia",
+            "nik": "3273285311700002",
+            "fileKtp": "upload/FileKtp/78d7b21b-f24d-4cf4-b7ae-437e447398b4-KTP Ibu.jpg",
+            "userAddress": "Komp. Bumi Asri Blok A.8, RT/RW 002/006, Kel. Cipadung Kulon, Kec. Panyileukan, Kota Bandung. 40614.",
             "userCity": 0,
             "userCityName": "Other",
             "userDistrictName": "",
-            "lastEducation": 0,
-            "lastEducationName": "Other",
+            "phoneNumberParticipant": "81322743721",
+            "phoneNumberAdmin": "81322743721",
+            "gender": 1,
+            "age": 55,
+            "lastEducation": 3,
+            "lastEducationName": "SMA",
             "historyPKBs": [],
             "mallPKB2025": "23 PASKAL SHOPPING CENTER",
-            "businessEntityName": "",
-            "isHaveMarketplace": false,
-            "businessMarketplaceItem": [],
-            "supermarketPartnerName": [],
-            "isAssignToEvent": true
-        },
-        {
-            "businessProfileId": "5a441449-1a81-4948-ad08-d2745fb975dc",
-            "businessName": "Trunojoyo",
-            "brandName": "Trunojoyo",
-            "description": "",
-            "categoryId": "a586d4a2-7ac8-45b0-a8ad-94ba2e7bded3",
-            "categoryName": "Fashion",
-            "subCategoryName": "",
-            "address": "",
-            "city": 0,
-            "cityName": "Other",
-            "cityOther": "",
-            "districtName": "",
-            "phoneNumber": "85723400797",
-            "email": "buanabatik18@gmail.com",
-            "whatsappNumber": "85723400797",
-            "productItems": [],
-            "documentItems": [],
-            "userId": "6452b538-e036-4f42-b3b9-1f019d2ed19e",
-            "userName": "buanabatik18@gmail.com",
-            "fullName": "Maha",
-            "nik": "",
-            "fileKtp": "",
-            "userAddress": "",
-            "userCity": 0,
-            "userCityName": "Other",
-            "userDistrictName": "",
-            "phoneNumberParticipant": "85723400797",
-            "lastEducation": 0,
-            "lastEducationName": "Other",
-            "lastEducationOther": "",
-            "historyPKBs": [],
-            "mallPKB2025": "23 PASKAL SHOPPING CENTER",
-            "isHaveLegality": false,
             "legalityItems": [],
             "businessEntityName": "",
             "certificateItems": [],
             "certificateAwards": [],
             "competitionCertificates": [],
-            "isHaveMarketplace": false,
-            "businessMarketplaceItem": [],
+            "isHaveMarketplace": true,
+            "businessMarketplaceItem": [
+                {
+                    "marketplacePlatform": 5,
+                    "marketplacePlatformName": "Tiktokshop",
+                    "accountName": "sofia_handycraft"
+                },
+                {
+                    "marketplacePlatform": 1,
+                    "marketplacePlatformName": "Other",
+                    "accountName": "sofia_handycraft"
+                }
+            ],
+            "promotionMeans": 0,
+            "supermarketPartner": [],
             "supermarketPartnerName": [],
             "isAssignToEvent": true
         },
@@ -5762,41 +6243,6 @@ window["23 PASKAL SHOPPING CENTER"] =
             "supermarketPartner": [
                 3
             ],
-            "supermarketPartnerName": [],
-            "isAssignToEvent": true
-        },
-        {
-            "businessProfileId": "b771aa5e-6b8b-4388-812f-38937d030961",
-            "businessName": "WONDROUS",
-            "brandName": "WONDROUS",
-            "description": "WONDROUS",
-            "categoryId": "a0045ccb-141b-4ba4-97d0-8418ead640a5",
-            "categoryName": "Kriya",
-            "subCategoryName": "",
-            "address": "Bandung",
-            "city": 0,
-            "cityName": "Other",
-            "cityOther": "Bandung",
-            "districtName": "",
-            "districtOther": "Bandung",
-            "province": "Jawa Barat",
-            "phoneNumber": "0000000000",
-            "email": "temp39@pasarkreatifbandung.com",
-            "whatsappNumber": "0000000000",
-            "productItems": [],
-            "documentItems": [],
-            "userId": "f8083819-dc6b-4e6e-87bc-264f74c3c1f3",
-            "userName": "temp39@pasarkreatifbandung.com",
-            "userCity": 0,
-            "userCityName": "Other",
-            "userDistrictName": "",
-            "lastEducation": 0,
-            "lastEducationName": "Other",
-            "historyPKBs": [],
-            "mallPKB2025": "23 PASKAL SHOPPING CENTER",
-            "businessEntityName": "",
-            "isHaveMarketplace": false,
-            "businessMarketplaceItem": [],
             "supermarketPartnerName": [],
             "isAssignToEvent": true
         },

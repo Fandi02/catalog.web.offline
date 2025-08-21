@@ -6,7 +6,7 @@ window.mallData =
         "name": "d'Botanica",
         "location": "Atrium Utama Lantai 1",
         "address": "Jl. Dr. Djunjunan No.143-149, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173",
-        "eventDate": "8 - 16 Agustus 2025"
+        "eventDate": "8 - 17 Agustus 2025"
       }
     },
     {
@@ -15,7 +15,7 @@ window.mallData =
         "name": "Paris Van Java",
         "location": "Atrium Lantai 1",
         "address": "Jl. Sukajadi No.131-139, Sukajadi, Kec. Sukajadi, Kota Bandung, Jawa Barat 40162",
-        "eventDate": "17 - 25 Agustus 2025"
+        "eventDate": "18 - 24 Agustus 2025"
       }
     },
     {
@@ -24,7 +24,7 @@ window.mallData =
         "name": "Trans Studio Mall",
         "location": "Atrium Lantai 2",
         "address": "Jl. Gatot Subroto No.289, Cibangkong, Kec. Batununggal, Kota Bandung, Jawa Barat 40273",
-        "eventDate": "26 Agustus - 3 September 2025"
+        "eventDate": "12 - 21 September 2025"
       }
     },
     {
@@ -33,7 +33,7 @@ window.mallData =
         "name": "Cihampelas Walk",
         "location": "Sky Bridge Lantai 3",
         "address": "Jl. Cihampelas No.160, Cipaganti, Kec. Coblong, Kota Bandung, Jawa Barat 40131",
-        "eventDate": "4 - 12 September 2025"
+        "eventDate": "5 - 14 September 2025"
       }
     },
     {
@@ -42,7 +42,7 @@ window.mallData =
         "name": "Kings Shopping Center",
         "location": "Atrium Lantai 1",
         "address": "Jl. Ciguriang, Balonggede, Kec. Regol, Kota Bandung, Jawa Barat 40251",
-        "eventDate": "13 - 21 September 2025"
+        "eventDate": "29 Agustus - 7 September 2025"
       }
     },
     {
@@ -51,7 +51,7 @@ window.mallData =
         "name": "FestLink",
         "location": "Atrium Lantai 1",
         "address": "Jl. Peta No.241, Suka Asih, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40232",
-        "eventDate": "22 - 30 September 2025"
+        "eventDate": "19 - 28 September 2025"
       }
     },
     {
@@ -69,7 +69,7 @@ window.mallData =
         "name": "Summarecon Mall Bandung",
         "location": "Central Atrium Lantai 1",
         "address": "Jl. Grand Bulevar No.1, Cisaranten Kidul, Kec. Gedebage, Kota Bandung, Jawa Barat 40295",
-        "eventDate": "10 - 18 Oktober 2025"
+        "eventDate": "26 September - 5 Oktober 2025"
       }
     }
   ]

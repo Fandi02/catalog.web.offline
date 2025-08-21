@@ -60,7 +60,7 @@ window.mallData =
         "name": "23 Paskal Shopping Center",
         "location": "Atrium Lantai 1",
         "address": "Jl. Pasir Kaliki No.25-27, Arjuna, Kec. Cicendo, Kota Bandung, Jawa Barat 40171",
-        "eventDate": "1 - 9 Oktober 2025"
+        "eventDate": "22 - 31 Agustus 2025"
       }
     },
     {
